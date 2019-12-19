@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name LibBurnInJuice)(type Legacy)(uri /home/ba/Documents/CNRS/FM/Burn-in/Libs/LibBurnInJuice.lib)(options "")(descr ""))
+  (lib (name CarteScreening-rescue)(type Legacy)(uri ${KIPRJMOD}/CarteScreening-rescue.lib)(options "")(descr ""))
+)

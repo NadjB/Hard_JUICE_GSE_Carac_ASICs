@@ -1,0 +1,37 @@
+# For PCBs designed using KiCad: http://www.kicad-pcb.org/
+
+# Temporary files
+*.000
+*.bak
+*.bck
+*.*-bak
+*~
+_autosave-*
+*.tmp
+
+#Self-saves
+*.old
+*.zip
+
+# Netlist files (exported from Eeschema)
+*.net
+
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+
+# Exported BOM files
+*.xml
+*.csv
+
+# Ignore the testproject files
+Vertions/
+Spectra/
+testproject.sch
+testproject.pro
+testproject.kicad_pcb
+fp-lib-table
+*-cache.lib
+*-rescue.lib
+*-cache
+/replicate_layout.log
