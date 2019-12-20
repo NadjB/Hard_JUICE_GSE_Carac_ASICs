@@ -253,57 +253,57 @@ Wire Wire Line
 $Comp
 L Connector:TestPoint TP?
 U 1 1 5DB96B37
-P 9275 3950
+P 9400 4475
 AR Path="/5D6520CE/5DB96B37" Ref="TP?"  Part="1" 
 AR Path="/5DB96B37" Ref="TP_BX0"  Part="1" 
-F 0 "TP_BX0" H 9333 4068 50  0000 L CNN
-F 1 "TestPoint" H 9333 3977 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9475 3950 50  0001 C CNN
-F 3 "~" H 9475 3950 50  0001 C CNN
-	1    9275 3950
+F 0 "TP_BX0" H 9458 4593 50  0000 L CNN
+F 1 "TestPoint" H 9458 4502 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9600 4475 50  0001 C CNN
+F 3 "~" H 9600 4475 50  0001 C CNN
+	1    9400 4475
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:TestPoint TP?
 U 1 1 5DB96B3D
-P 9750 3950
+P 9875 4475
 AR Path="/5D6520CE/5DB96B3D" Ref="TP?"  Part="1" 
 AR Path="/5DB96B3D" Ref="TP_BY0"  Part="1" 
-F 0 "TP_BY0" H 9808 4068 50  0000 L CNN
-F 1 "TestPoint" H 9808 3977 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9950 3950 50  0001 C CNN
-F 3 "~" H 9950 3950 50  0001 C CNN
-	1    9750 3950
+F 0 "TP_BY0" H 9933 4593 50  0000 L CNN
+F 1 "TestPoint" H 9933 4502 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 10075 4475 50  0001 C CNN
+F 3 "~" H 10075 4475 50  0001 C CNN
+	1    9875 4475
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:TestPoint TP?
 U 1 1 5DB96B43
-P 10225 3950
+P 10350 4475
 AR Path="/5D6520CE/5DB96B43" Ref="TP?"  Part="1" 
 AR Path="/5DB96B43" Ref="TP_BZ0"  Part="1" 
-F 0 "TP_BZ0" H 10283 4068 50  0000 L CNN
-F 1 "TestPoint" H 10283 3977 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 10425 3950 50  0001 C CNN
-F 3 "~" H 10425 3950 50  0001 C CNN
-	1    10225 3950
+F 0 "TP_BZ0" H 10408 4593 50  0000 L CNN
+F 1 "TestPoint" H 10408 4502 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 10550 4475 50  0001 C CNN
+F 3 "~" H 10550 4475 50  0001 C CNN
+	1    10350 4475
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9275 3950 9275 4125
+	9400 4475 9400 4650
 Wire Wire Line
-	9750 3950 9750 4125
+	9875 4475 9875 4650
 Wire Wire Line
-	10225 3950 10225 4125
+	10350 4475 10350 4650
 Wire Wire Line
-	9750 4600 9750 4775
-Text Label 9750 4775 2    50   ~ 0
+	9875 5125 9875 5300
+Text Label 9875 5300 2    50   ~ 0
 CAL
-Text Label 9275 4125 2    50   ~ 0
+Text Label 9400 4650 2    50   ~ 0
 B_X
-Text Label 9750 4125 2    50   ~ 0
+Text Label 9875 4650 2    50   ~ 0
 B_Y
-Text Label 10225 4125 2    50   ~ 0
+Text Label 10350 4650 2    50   ~ 0
 B_Z
 Wire Wire Line
 	5575 2425 5975 2425
@@ -314,104 +314,104 @@ Wire Wire Line
 $Comp
 L Connector:TestPoint TP_InX?
 U 1 1 5DBBF5AA
-P 9275 2775
+P 9400 3300
 AR Path="/5D6520CE/5DBBF5AA" Ref="TP_InX?"  Part="1" 
 AR Path="/5DBBF5AA" Ref="TP_Sx0"  Part="1" 
-F 0 "TP_Sx0" H 9333 2893 50  0000 L CNN
-F 1 "TestPoint" H 9333 2802 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9475 2775 50  0001 C CNN
-F 3 "~" H 9475 2775 50  0001 C CNN
-	1    9275 2775
+F 0 "TP_Sx0" H 9458 3418 50  0000 L CNN
+F 1 "TestPoint" H 9458 3327 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9600 3300 50  0001 C CNN
+F 3 "~" H 9600 3300 50  0001 C CNN
+	1    9400 3300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:TestPoint TP_InY?
 U 1 1 5DBBF5B0
-P 9750 2775
+P 9875 3300
 AR Path="/5D6520CE/5DBBF5B0" Ref="TP_InY?"  Part="1" 
 AR Path="/5DBBF5B0" Ref="TP_Sy0"  Part="1" 
-F 0 "TP_Sy0" H 9808 2893 50  0000 L CNN
-F 1 "TestPoint" H 9808 2802 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9950 2775 50  0001 C CNN
-F 3 "~" H 9950 2775 50  0001 C CNN
-	1    9750 2775
+F 0 "TP_Sy0" H 9933 3418 50  0000 L CNN
+F 1 "TestPoint" H 9933 3327 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 10075 3300 50  0001 C CNN
+F 3 "~" H 10075 3300 50  0001 C CNN
+	1    9875 3300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:TestPoint TP_InZ?
 U 1 1 5DBBF5B6
-P 10225 2775
+P 10350 3300
 AR Path="/5D6520CE/5DBBF5B6" Ref="TP_InZ?"  Part="1" 
 AR Path="/5DBBF5B6" Ref="TP_Sz0"  Part="1" 
-F 0 "TP_Sz0" H 10283 2893 50  0000 L CNN
-F 1 "TestPoint" H 10283 2802 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 10425 2775 50  0001 C CNN
-F 3 "~" H 10425 2775 50  0001 C CNN
-	1    10225 2775
+F 0 "TP_Sz0" H 10408 3418 50  0000 L CNN
+F 1 "TestPoint" H 10408 3327 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 10550 3300 50  0001 C CNN
+F 3 "~" H 10550 3300 50  0001 C CNN
+	1    10350 3300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9275 2775 9275 2950
+	9400 3300 9400 3475
 Wire Wire Line
-	9750 2775 9750 2950
+	9875 3300 9875 3475
 Wire Wire Line
-	10225 2775 10225 2950
-Text Label 9275 2950 2    50   ~ 0
+	10350 3300 10350 3475
+Text Label 9400 3475 2    50   ~ 0
 Sx
-Text Label 9750 2950 2    50   ~ 0
+Text Label 9875 3475 2    50   ~ 0
 Sy
-Text Label 10225 2950 2    50   ~ 0
+Text Label 10350 3475 2    50   ~ 0
 Sz
 $Comp
 L Connector:TestPoint TP_InX?
 U 1 1 5DBC173F
-P 9275 3375
+P 9400 3900
 AR Path="/5D6520CE/5DBC173F" Ref="TP_InX?"  Part="1" 
 AR Path="/5DBC173F" Ref="TP_RTNx0"  Part="1" 
-F 0 "TP_RTNx0" H 9333 3493 50  0000 L CNN
-F 1 "TestPoint" H 9333 3402 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9475 3375 50  0001 C CNN
-F 3 "~" H 9475 3375 50  0001 C CNN
-	1    9275 3375
+F 0 "TP_RTNx0" H 9458 4018 50  0000 L CNN
+F 1 "TestPoint" H 9458 3927 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9600 3900 50  0001 C CNN
+F 3 "~" H 9600 3900 50  0001 C CNN
+	1    9400 3900
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:TestPoint TP_InY?
 U 1 1 5DBC1745
-P 9750 3375
+P 9875 3900
 AR Path="/5D6520CE/5DBC1745" Ref="TP_InY?"  Part="1" 
 AR Path="/5DBC1745" Ref="TP_RTNy0"  Part="1" 
-F 0 "TP_RTNy0" H 9808 3493 50  0000 L CNN
-F 1 "TestPoint" H 9808 3402 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9950 3375 50  0001 C CNN
-F 3 "~" H 9950 3375 50  0001 C CNN
-	1    9750 3375
+F 0 "TP_RTNy0" H 9933 4018 50  0000 L CNN
+F 1 "TestPoint" H 9933 3927 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 10075 3900 50  0001 C CNN
+F 3 "~" H 10075 3900 50  0001 C CNN
+	1    9875 3900
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:TestPoint TP_InZ?
 U 1 1 5DBC174B
-P 10225 3375
+P 10350 3900
 AR Path="/5D6520CE/5DBC174B" Ref="TP_InZ?"  Part="1" 
 AR Path="/5DBC174B" Ref="TP_RTNz0"  Part="1" 
-F 0 "TP_RTNz0" H 10283 3493 50  0000 L CNN
-F 1 "TestPoint" H 10283 3402 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 10425 3375 50  0001 C CNN
-F 3 "~" H 10425 3375 50  0001 C CNN
-	1    10225 3375
+F 0 "TP_RTNz0" H 10408 4018 50  0000 L CNN
+F 1 "TestPoint" H 10408 3927 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 10550 3900 50  0001 C CNN
+F 3 "~" H 10550 3900 50  0001 C CNN
+	1    10350 3900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9275 3375 9275 3550
+	9400 3900 9400 4075
 Wire Wire Line
-	9750 3375 9750 3550
+	9875 3900 9875 4075
 Wire Wire Line
-	10225 3375 10225 3550
-Text Label 9275 3550 2    50   ~ 0
+	10350 3900 10350 4075
+Text Label 9400 4075 2    50   ~ 0
 RTNx
-Text Label 9750 3550 2    50   ~ 0
+Text Label 9875 4075 2    50   ~ 0
 RTNy
-Text Label 10225 3550 2    50   ~ 0
+Text Label 10350 4075 2    50   ~ 0
 RTNz
 Text Label 5575 2425 0    50   ~ 0
 B_X
@@ -422,167 +422,167 @@ B_Z
 $Comp
 L Connector:TestPoint TP_InX?
 U 1 1 5DBCDB28
-P 9275 825
+P 9400 1350
 AR Path="/5D6520CE/5DBCDB28" Ref="TP_InX?"  Part="1" 
 AR Path="/5DBCDB28" Ref="TP_6vX0"  Part="1" 
-F 0 "TP_6vX0" H 9333 943 50  0000 L CNN
-F 1 "TestPoint" H 9333 852 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9475 825 50  0001 C CNN
-F 3 "~" H 9475 825 50  0001 C CNN
-	1    9275 825 
+F 0 "TP_6vX0" H 9458 1468 50  0000 L CNN
+F 1 "TestPoint" H 9458 1377 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9600 1350 50  0001 C CNN
+F 3 "~" H 9600 1350 50  0001 C CNN
+	1    9400 1350
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:TestPoint TP_InY?
 U 1 1 5DBCDB2E
-P 9750 825
+P 9875 1350
 AR Path="/5D6520CE/5DBCDB2E" Ref="TP_InY?"  Part="1" 
 AR Path="/5DBCDB2E" Ref="TP_6vY0"  Part="1" 
-F 0 "TP_6vY0" H 9808 943 50  0000 L CNN
-F 1 "TestPoint" H 9808 852 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9950 825 50  0001 C CNN
-F 3 "~" H 9950 825 50  0001 C CNN
-	1    9750 825 
+F 0 "TP_6vY0" H 9933 1468 50  0000 L CNN
+F 1 "TestPoint" H 9933 1377 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 10075 1350 50  0001 C CNN
+F 3 "~" H 10075 1350 50  0001 C CNN
+	1    9875 1350
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:TestPoint TP_InZ?
 U 1 1 5DBCDB34
-P 10225 825
+P 10350 1350
 AR Path="/5D6520CE/5DBCDB34" Ref="TP_InZ?"  Part="1" 
 AR Path="/5DBCDB34" Ref="TP_6vZ0"  Part="1" 
-F 0 "TP_6vZ0" H 10283 943 50  0000 L CNN
-F 1 "TestPoint" H 10283 852 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 10425 825 50  0001 C CNN
-F 3 "~" H 10425 825 50  0001 C CNN
-	1    10225 825 
+F 0 "TP_6vZ0" H 10408 1468 50  0000 L CNN
+F 1 "TestPoint" H 10408 1377 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 10550 1350 50  0001 C CNN
+F 3 "~" H 10550 1350 50  0001 C CNN
+	1    10350 1350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9275 825  9275 1000
+	9400 1350 9400 1525
 Wire Wire Line
-	9750 825  9750 1000
+	9875 1350 9875 1525
 Wire Wire Line
-	10225 825  10225 1000
+	10350 1350 10350 1525
 $Comp
 L Connector:TestPoint TP_Sx?
 U 1 1 5DBCDB40
-P 9275 1500
+P 9400 2025
 AR Path="/5D6520CE/5DBCDB40" Ref="TP_Sx?"  Part="1" 
 AR Path="/5DBCDB40" Ref="TP_VddX0"  Part="1" 
-F 0 "TP_VddX0" H 9333 1618 50  0000 L CNN
-F 1 "TestPoint" H 9333 1527 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9475 1500 50  0001 C CNN
-F 3 "~" H 9475 1500 50  0001 C CNN
-	1    9275 1500
+F 0 "TP_VddX0" H 9458 2143 50  0000 L CNN
+F 1 "TestPoint" H 9458 2052 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9600 2025 50  0001 C CNN
+F 3 "~" H 9600 2025 50  0001 C CNN
+	1    9400 2025
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:TestPoint TP_InYSy?
 U 1 1 5DBCDB46
-P 9750 1500
+P 9875 2025
 AR Path="/5D6520CE/5DBCDB46" Ref="TP_InYSy?"  Part="1" 
 AR Path="/5DBCDB46" Ref="TP_VddY0"  Part="1" 
-F 0 "TP_VddY0" H 9808 1618 50  0000 L CNN
-F 1 "TestPoint" H 9808 1527 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9950 1500 50  0001 C CNN
-F 3 "~" H 9950 1500 50  0001 C CNN
-	1    9750 1500
+F 0 "TP_VddY0" H 9933 2143 50  0000 L CNN
+F 1 "TestPoint" H 9933 2052 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 10075 2025 50  0001 C CNN
+F 3 "~" H 10075 2025 50  0001 C CNN
+	1    9875 2025
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:TestPoint TP_Sz?
 U 1 1 5DBCDB4C
-P 10225 1500
+P 10350 2025
 AR Path="/5D6520CE/5DBCDB4C" Ref="TP_Sz?"  Part="1" 
 AR Path="/5DBCDB4C" Ref="TP_VddZ0"  Part="1" 
-F 0 "TP_VddZ0" H 10283 1618 50  0000 L CNN
-F 1 "TestPoint" H 10283 1527 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 10425 1500 50  0001 C CNN
-F 3 "~" H 10425 1500 50  0001 C CNN
-	1    10225 1500
+F 0 "TP_VddZ0" H 10408 2143 50  0000 L CNN
+F 1 "TestPoint" H 10408 2052 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 10550 2025 50  0001 C CNN
+F 3 "~" H 10550 2025 50  0001 C CNN
+	1    10350 2025
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9275 1500 9275 1675
+	9400 2025 9400 2200
 Wire Wire Line
-	9750 1500 9750 1675
+	9875 2025 9875 2200
 Wire Wire Line
-	10225 1500 10225 1675
+	10350 2025 10350 2200
 $Comp
 L Connector:TestPoint TP_RTNx?
 U 1 1 5DBCDB58
-P 9275 2100
+P 9400 2625
 AR Path="/5D6520CE/5DBCDB58" Ref="TP_RTNx?"  Part="1" 
 AR Path="/5DBCDB58" Ref="TP_Mx0"  Part="1" 
-F 0 "TP_Mx0" H 9333 2218 50  0000 L CNN
-F 1 "TestPoint" H 9333 2127 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9475 2100 50  0001 C CNN
-F 3 "~" H 9475 2100 50  0001 C CNN
-	1    9275 2100
+F 0 "TP_Mx0" H 9458 2743 50  0000 L CNN
+F 1 "TestPoint" H 9458 2652 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9600 2625 50  0001 C CNN
+F 3 "~" H 9600 2625 50  0001 C CNN
+	1    9400 2625
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:TestPoint TP_RTNy?
 U 1 1 5DBCDB5E
-P 9750 2100
+P 9875 2625
 AR Path="/5D6520CE/5DBCDB5E" Ref="TP_RTNy?"  Part="1" 
 AR Path="/5DBCDB5E" Ref="TP_My0"  Part="1" 
-F 0 "TP_My0" H 9808 2218 50  0000 L CNN
-F 1 "TestPoint" H 9808 2127 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9950 2100 50  0001 C CNN
-F 3 "~" H 9950 2100 50  0001 C CNN
-	1    9750 2100
+F 0 "TP_My0" H 9933 2743 50  0000 L CNN
+F 1 "TestPoint" H 9933 2652 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 10075 2625 50  0001 C CNN
+F 3 "~" H 10075 2625 50  0001 C CNN
+	1    9875 2625
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:TestPoint TP_RTNz?
 U 1 1 5DBCDB64
-P 10225 2100
+P 10350 2625
 AR Path="/5D6520CE/5DBCDB64" Ref="TP_RTNz?"  Part="1" 
 AR Path="/5DBCDB64" Ref="TP_Mz0"  Part="1" 
-F 0 "TP_Mz0" H 10283 2218 50  0000 L CNN
-F 1 "TestPoint" H 10283 2127 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 10425 2100 50  0001 C CNN
-F 3 "~" H 10425 2100 50  0001 C CNN
-	1    10225 2100
+F 0 "TP_Mz0" H 10408 2743 50  0000 L CNN
+F 1 "TestPoint" H 10408 2652 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 10550 2625 50  0001 C CNN
+F 3 "~" H 10550 2625 50  0001 C CNN
+	1    10350 2625
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9275 2100 9275 2275
+	9400 2625 9400 2800
 Wire Wire Line
-	9750 2100 9750 2275
+	9875 2625 9875 2800
 Wire Wire Line
-	10225 2100 10225 2275
-Text Label 9275 1000 2    50   ~ 0
+	10350 2625 10350 2800
+Text Label 9400 1525 2    50   ~ 0
 +6V_A
-Text Label 9750 1000 2    50   ~ 0
+Text Label 9875 1525 2    50   ~ 0
 +6V_B
-Text Label 10225 1000 2    50   ~ 0
+Text Label 10350 1525 2    50   ~ 0
 +6V_C
-Text Label 9275 1675 2    50   ~ 0
+Text Label 9400 2200 2    50   ~ 0
 VDD_X
-Text Label 9750 1675 2    50   ~ 0
+Text Label 9875 2200 2    50   ~ 0
 VDD_Y
-Text Label 10225 1675 2    50   ~ 0
+Text Label 10350 2200 2    50   ~ 0
 VDD_Z
-Text Label 9275 2275 2    50   ~ 0
+Text Label 9400 2800 2    50   ~ 0
 M_X
-Text Label 9750 2275 2    50   ~ 0
+Text Label 9875 2800 2    50   ~ 0
 M_Y
-Text Label 10225 2275 2    50   ~ 0
+Text Label 10350 2800 2    50   ~ 0
 M_Z
 $Comp
 L Connector:TestPoint TP?
 U 1 1 5DB96B49
-P 9750 4600
+P 9875 5125
 AR Path="/5D6520CE/5DB96B49" Ref="TP?"  Part="1" 
 AR Path="/5DB96B49" Ref="TP_Cal0"  Part="1" 
-F 0 "TP_Cal0" H 9808 4718 50  0000 L CNN
-F 1 "TestPoint" H 9808 4627 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9950 4600 50  0001 C CNN
-F 3 "~" H 9950 4600 50  0001 C CNN
-	1    9750 4600
+F 0 "TP_Cal0" H 9933 5243 50  0000 L CNN
+F 1 "TestPoint" H 9933 5152 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 10075 5125 50  0001 C CNN
+F 3 "~" H 10075 5125 50  0001 C CNN
+	1    9875 5125
 	1    0    0    -1  
 $EndComp
 Wire Wire Line

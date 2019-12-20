@@ -816,7 +816,7 @@ $EndComp
 Wire Wire Line
 	13175 6700 13175 6900
 Wire Wire Line
-	13975 7200 13975 7350
+	13975 7200 13975 7275
 Connection ~ 13575 7275
 Wire Wire Line
 	13575 7275 13175 7275
@@ -1120,7 +1120,7 @@ F 3 "~" H 14450 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	13575 7275 14450 7275
+	13575 7275 13975 7275
 Wire Wire Line
 	13975 6700 14450 6700
 Text Notes 14975 7075 0    50   ~ 10
@@ -1169,62 +1169,6 @@ Wire Wire Line
 	8225 8850 8275 8850
 Wire Wire Line
 	8275 8850 8275 8700
-$Comp
-L Connector:TestPoint TP_POT_BiasX1
-U 1 1 5E2E7738
-P 6750 8175
-AR Path="/5D6520CE/5D5EAAA6/5E2E7738" Ref="TP_POT_BiasX1"  Part="1" 
-AR Path="/5D6520CE/5D843251/5E2E7738" Ref="TP_POT_BiasZ1"  Part="1" 
-AR Path="/5D6520CE/5D83A418/5E2E7738" Ref="TP_POT_BiasY1"  Part="1" 
-F 0 "TP_POT_BiasX1" H 6550 8375 50  0000 L CNN
-F 1 "TestPoint" H 6808 8202 50  0001 L CNN
-F 2 "Connector:Banana_Jack_1Pin" H 6950 8175 50  0001 C CNN
-F 3 "~" H 6950 8175 50  0001 C CNN
-	1    6750 8175
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP_POT_BiasX2
-U 1 1 5E2E8513
-P 6350 8175
-AR Path="/5D6520CE/5D5EAAA6/5E2E8513" Ref="TP_POT_BiasX2"  Part="1" 
-AR Path="/5D6520CE/5D843251/5E2E8513" Ref="TP_POT_BiasZ2"  Part="1" 
-AR Path="/5D6520CE/5D83A418/5E2E8513" Ref="TP_POT_BiasY2"  Part="1" 
-F 0 "TP_POT_BiasX2" H 6475 8375 50  0000 R CNN
-F 1 "TestPoint" H 6292 8292 50  0001 R CNN
-F 2 "Connector:Banana_Jack_1Pin" H 6550 8175 50  0001 C CNN
-F 3 "~" H 6550 8175 50  0001 C CNN
-	1    6350 8175
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP_POT_VDDX1
-U 1 1 5E2EBF2D
-P 8175 8200
-AR Path="/5D6520CE/5D5EAAA6/5E2EBF2D" Ref="TP_POT_VDDX1"  Part="1" 
-AR Path="/5D6520CE/5D843251/5E2EBF2D" Ref="TP_POT_VDDZ1"  Part="1" 
-AR Path="/5D6520CE/5D83A418/5E2EBF2D" Ref="TP_POT_VDDY1"  Part="1" 
-F 0 "TP_POT_VDDX1" H 7975 8475 50  0000 L CNN
-F 1 "TestPoint" H 8233 8227 50  0001 L CNN
-F 2 "Connector:Banana_Jack_1Pin" H 8375 8200 50  0001 C CNN
-F 3 "~" H 8375 8200 50  0001 C CNN
-	1    8175 8200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP_POT_VDDX2
-U 1 1 5E2F5417
-P 7775 8175
-AR Path="/5D6520CE/5D5EAAA6/5E2F5417" Ref="TP_POT_VDDX2"  Part="1" 
-AR Path="/5D6520CE/5D843251/5E2F5417" Ref="TP_POT_VDDZ2"  Part="1" 
-AR Path="/5D6520CE/5D83A418/5E2F5417" Ref="TP_POT_VDDY2"  Part="1" 
-F 0 "TP_POT_VDDX2" H 7925 8425 50  0000 R CNN
-F 1 "TestPoint" H 8200 8325 50  0001 R CNN
-F 2 "Connector:Banana_Jack_1Pin" H 7975 8175 50  0001 C CNN
-F 3 "~" H 7975 8175 50  0001 C CNN
-	1    7775 8175
-	1    0    0    -1  
-$EndComp
 Connection ~ 7100 8225
 Connection ~ 7975 7400
 Connection ~ 7100 7475
@@ -1335,7 +1279,7 @@ AR Path="/5D6520CE/5D843251/5E1E5B8A" Ref="SW_Z32-34"  Part="1"
 AR Path="/5D6520CE/5D83A418/5E1E5B8A" Ref="SW_Y32-34"  Part="1" 
 F 0 "SW_X32-34" H 3300 3800 50  0000 C CNN
 F 1 "SW_Rotary4x3" H 3300 3891 50  0000 C CNN
-F 2 "LibPersoNadj:Switch_4P3T_MRA403_NKK" H 3150 5625 50  0001 C CNN
+F 2 "LibPersoNadj:Switch_4P3T_MRA403_NKK_Turned30°" H 3150 5625 50  0001 C CNN
 F 3 "http://cdn-reichelt.de/documents/datenblatt/C200/DS-Serie%23LOR.pdf" H 3150 5625 50  0001 C CNN
 	1    3250 4725
 	1    0    0    -1  
@@ -1409,34 +1353,6 @@ Text Label 3875 5425 0    50   ~ 0
 -32
 Text Label 3875 5025 0    50   ~ 0
 +32
-$Comp
-L Connector:TestPoint TP_Pot_OffsetX2
-U 1 1 5E172A75
-P 3950 4525
-AR Path="/5D6520CE/5D5EAAA6/5E172A75" Ref="TP_Pot_OffsetX2"  Part="1" 
-AR Path="/5D6520CE/5D843251/5E172A75" Ref="TP_Pot_OffsetZ2"  Part="1" 
-AR Path="/5D6520CE/5D83A418/5E172A75" Ref="TP_Pot_OffsetY2"  Part="1" 
-F 0 "TP_Pot_OffsetX2" V 3950 4750 50  0000 L CNN
-F 1 "TestPoint" H 4008 4552 50  0001 L CNN
-F 2 "Connector:Banana_Jack_1Pin" H 4150 4525 50  0001 C CNN
-F 3 "~" H 4150 4525 50  0001 C CNN
-	1    3950 4525
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:TestPoint TP_Pot_OffsetX1
-U 1 1 5E19E9E8
-P 3950 4125
-AR Path="/5D6520CE/5D5EAAA6/5E19E9E8" Ref="TP_Pot_OffsetX1"  Part="1" 
-AR Path="/5D6520CE/5D843251/5E19E9E8" Ref="TP_Pot_OffsetZ1"  Part="1" 
-AR Path="/5D6520CE/5D83A418/5E19E9E8" Ref="TP_Pot_OffsetY1"  Part="1" 
-F 0 "TP_Pot_OffsetX1" V 3950 4350 50  0000 L CNN
-F 1 "TestPoint" V 4025 4200 50  0001 L CNN
-F 2 "Connector:Banana_Jack_1Pin" H 4150 4125 50  0001 C CNN
-F 3 "~" H 4150 4125 50  0001 C CNN
-	1    3950 4125
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	3950 4525 3750 4525
 Wire Wire Line
@@ -1541,4 +1457,21 @@ Wire Notes Line
 	9325 5400 9925 5400
 Wire Wire Line
 	9225 5175 9675 5175
+Connection ~ 13975 7275
+Wire Wire Line
+	13975 7275 13975 7350
+Wire Wire Line
+	13975 7275 14450 7275
+Text GLabel 3950 4125 2    50   Input ~ 0
+TP_Pot_Offset1
+Text GLabel 3950 4525 2    50   Input ~ 0
+TP_Pot_Offset2
+Text GLabel 6350 8175 1    50   Input ~ 0
+TP_Pot_Bias1
+Text GLabel 6750 8175 1    50   Input ~ 0
+TP_Pot_Bias2
+Text GLabel 7775 8175 1    50   Input ~ 0
+TP_Pot_VDD1
+Text GLabel 8175 8200 1    50   Input ~ 0
+TP_Pot_VDD2
 $EndSCHEMATC

@@ -540,4 +540,15 @@ Text HLabel 1975 4050 0    50   Input ~ 0
 V_Bias_LNA_Y
 Text HLabel 1975 1725 0    50   Input ~ 0
 V_Bias_LNA_X
+$Comp
+L LibPersoNadj:SW_Slide_DP3T SW?
+U 1 1 5E14765B
+P 8550 2450
+F 0 "SW?" H 8550 3135 50  0000 C CNN
+F 1 "SW_Slide_DP3T" H 8550 3044 50  0000 C CNN
+F 2 "" H 8550 2850 50  0001 C CNN
+F 3 "~" H 8550 2850 50  0001 C CNN
+	1    8550 2450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
