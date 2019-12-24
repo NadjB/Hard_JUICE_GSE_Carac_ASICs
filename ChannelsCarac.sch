@@ -1416,7 +1416,7 @@ Wire Wire Line
 Wire Wire Line
 	6350 8300 6350 8175
 Wire Wire Line
-	8175 8200 8175 8300
+	8175 8175 8175 8300
 Wire Wire Line
 	7775 8300 7775 8175
 Wire Wire Line
@@ -1462,16 +1462,16 @@ Wire Wire Line
 	13975 7275 13975 7350
 Wire Wire Line
 	13975 7275 14450 7275
-Text GLabel 3950 4125 2    50   Input ~ 0
-TP_Pot_Offset1
-Text GLabel 3950 4525 2    50   Input ~ 0
-TP_Pot_Offset2
-Text GLabel 6350 8175 1    50   Input ~ 0
-TP_Pot_Bias1
-Text GLabel 6750 8175 1    50   Input ~ 0
-TP_Pot_Bias2
-Text GLabel 7775 8175 1    50   Input ~ 0
-TP_Pot_VDD1
-Text GLabel 8175 8200 1    50   Input ~ 0
-TP_Pot_VDD2
+Text HLabel 3950 4125 2    50   Input ~ 0
+Pot_Offset1
+Text HLabel 3950 4525 2    50   Input ~ 0
+Pot_Offset2
+Text HLabel 6350 8175 1    50   Input ~ 0
+Pot_Bias1
+Text HLabel 6750 8175 1    50   Input ~ 0
+Pot_Bias2
+Text HLabel 7775 8175 1    50   Input ~ 0
+Pot_VDD1
+Text HLabel 8175 8175 1    50   Input ~ 0
+Pot_VDD2
 $EndSCHEMATC

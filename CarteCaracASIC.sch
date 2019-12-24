@@ -158,7 +158,7 @@ Connection ~ 3950 3550
 Wire Wire Line
 	3950 3550 3950 3600
 $Sheet
-S 5975 2200 1425 2650
+S 5975 2200 1425 2925
 U 5D6520CE
 F0 "AsicFM" 50
 F1 "AsicFM.sch" 50
@@ -190,6 +190,11 @@ F26 "VDD_Z" I L 5975 4175 50
 F27 "V_Bias_LNA_Z" I L 5975 4700 50 
 F28 "V_Bias_LNA_Y" I L 5975 4575 50 
 F29 "V_Bias_LNA_X" I L 5975 4450 50 
+F30 "TP_Pot_1" I L 5975 4875 50 
+F31 "TP_Pot_2" I L 5975 5000 50 
+F32 "In2P_X" I R 7400 4675 50 
+F33 "In2P_Y" I R 7400 4800 50 
+F34 "In2P_Z" I R 7400 4925 50 
 $EndSheet
 Wire Wire Line
 	2900 6550 2900 6900
@@ -621,12 +626,6 @@ VDD_X
 Wire Wire Line
 	3700 2400 3425 2400
 Wire Wire Line
-	3700 2500 3425 2500
-Wire Wire Line
-	3700 2600 3425 2600
-Wire Wire Line
-	3700 2700 3425 2700
-Wire Wire Line
 	3700 2800 3425 2800
 Wire Wire Line
 	3700 2900 3425 2900
@@ -899,9 +898,6 @@ Connection ~ 2375 6900
 Wire Wire Line
 	2375 6900 2550 6900
 NoConn ~ 3425 2400
-NoConn ~ 3425 2500
-NoConn ~ 3425 2600
-NoConn ~ 3425 2700
 NoConn ~ 3425 2800
 NoConn ~ 3425 2900
 NoConn ~ 3425 3000
@@ -921,4 +917,36 @@ F 3 "" H 8275 3050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8100 3050 8275 3050
+Wire Wire Line
+	7400 4925 8075 4925
+Wire Wire Line
+	7400 4675 8075 4675
+Wire Wire Line
+	7400 4800 8075 4800
+Text Label 8075 4925 2    50   ~ 0
+In2P_Z
+Text Label 8075 4800 2    50   ~ 0
+In2P_Y
+Text Label 8075 4675 2    50   ~ 0
+In2P_X
+Wire Wire Line
+	5975 4875 5300 4875
+Wire Wire Line
+	5975 5000 5300 5000
+Text Label 5300 5000 0    50   ~ 0
+TP_Pot_1
+Text Label 5300 4875 0    50   ~ 0
+TP_Pot_1
+Text Label 3025 2700 0    50   ~ 0
+In2P_Z
+Text Label 3025 2600 0    50   ~ 0
+In2P_Y
+Text Label 3025 2500 0    50   ~ 0
+In2P_X
+Wire Wire Line
+	3025 2500 3700 2500
+Wire Wire Line
+	3025 2600 3700 2600
+Wire Wire Line
+	3025 2700 3700 2700
 $EndSCHEMATC
