@@ -1,0 +1,75 @@
+12-06 11:26:59 replicate_layout.action_replicate_layout 159:Replicate layout plugin version: 34 started
+12-06 11:26:59 replicate_layout.action_replicate_layout 191:Preparing replicator with J01 as a reference
+12-06 11:26:59 replicate_layout.replicatelayout 183:getting project hierarchy from schematics
+12-06 11:26:59 replicate_layout.replicatelayout 185:Project hierarchy looks like:
+{'614B0FD3': ['21-30', '/home/ba/KiCad/Adaptateurs/Sub-D50<==>Sub-D50/grp_10_Pin.sch'], '61ACF95B': ['1b-10b', '/home/ba/KiCad/Adaptateurs/Sub-D50<==>Sub-D50/10PinSwichSides.sch'], '61AD0B83': ['sheet61AD0B77', '/home/ba/KiCad/Adaptateurs/Sub-D50<==>Sub-D50/pinSupplementaires.sch'], '61AD0B86': ['sheet61AD0B78', '/home/ba/KiCad/Adaptateurs/Sub-D50<==>Sub-D50/pinSupplementaires.sch'], '61AD0B89': ['sheet61AD0B79', '/home/ba/KiCad/Adaptateurs/Sub-D50<==>Sub-D50/pinSupplementaires.sch'], '61AD0B8C': ['sheet61AD0B7A', '/home/ba/KiCad/Adaptateurs/Sub-D50<==>Sub-D50/pinSupplementaires.sch'], '61AD0B8F': ['sheet61AD0B7B', '/home/ba/KiCad/Adaptateurs/Sub-D50<==>Sub-D50/pinSupplementaires.sch'], '61AD0B92': ['sheet61AD0B7C', '/home/ba/KiCad/Adaptateurs/Sub-D50<==>Sub-D50/pinSupplementaires.sch'], '61AD0B95': ['sheet61AD0B7D', '/home/ba/KiCad/Adaptateurs/Sub-D50<==>Sub-D50/pinSupplementaires.sch'], '61AD0B98': ['sheet61AD0B7E', '/home/ba/KiCad/Adaptateurs/Sub-D50<==>Sub-D50/pinSupplementaires.sch'], '61AD0B9B': ['sheet61AD0B7F', '/home/ba/KiCad/Adaptateurs/Sub-D50<==>Sub-D50/pinSupplementaires.sch'], '61AD0B9E': ['sheet61AD0B80', '/home/ba/KiCad/Adaptateurs/Sub-D50<==>Sub-D50/pinSupplementaires.sch'], '61ADBB66': ['sheet61ADBB5A', '/home/ba/KiCad/Adaptateurs/Sub-D50<==>Sub-D50/10PinSwichSides.sch'], '61533310': ['31-40', '/home/ba/KiCad/Adaptateurs/Sub-D50<==>Sub-D50/grp_10_Pin.sch'], '615B5DD5': ['41-50', '/home/ba/KiCad/Adaptateurs/Sub-D50<==>Sub-D50/grp_10_Pin.sch'], '5E641EC8': ['01-10', '/home/ba/KiCad/Adaptateurs/Sub-D50<==>Sub-D50/grp_10_Pin.sch'], '6133F774': ['11-20', '/home/ba/KiCad/Adaptateurs/Sub-D50<==>Sub-D50/grp_10_Pin.sch']}
+12-06 11:26:59 replicate_layout.replicatelayout 193:getting a list of all footprints on board
+12-06 11:26:59 replicate_layout.action_replicate_layout 217:Pivot footprint is 'J01'
+Located on:['01-10']
+With filenames:['grp_10_Pin.sch']
+With sheet_id:['01-10']
+12-06 11:26:59 replicate_layout.action_replicate_layout 221:Corresponding footprints are 
+[('J01', ['01-10']), ('J41', ['41-50']), ('J31', ['31-40']), ('J21', ['21-30']), ('J11', ['11-20'])]
+12-06 11:26:59 replicate_layout.action_replicate_layout 234:Showing dialog
+12-06 11:26:59 replicate_layout.replicatelayout 220:construcing a list of sheets suitable for replication on level:'01-10', file:'grp_10_Pin.sch'
+12-06 11:26:59 replicate_layout.replicatelayout 227:Sheet ids up to the level:['01-10']
+12-06 11:26:59 replicate_layout.replicatelayout 231:Footprints on the sheets:
+['J01', 'J41', 'J31', 'J21', 'J11']
+12-06 11:26:59 replicate_layout.replicatelayout 234:Footprints raw sheet ids:
+['/5E641EC8/5E6A9E8D', '/615B5DD5/5E6A9E8D', '/61533310/5E6A9E8D', '/614B0FD3/5E6A9E8D', '/6133F774/5E6A9E8D']
+12-06 11:26:59 replicate_layout.replicatelayout 250:All sheets to replicate:
+[['01-10'], ['41-50'], ['31-40'], ['21-30'], ['11-20']]
+12-06 11:26:59 replicate_layout.replicatelayout 255:All sheets to replicate sorted:
+[['01-10'], ['11-20'], ['21-30'], ['31-40'], ['41-50']]
+12-06 11:26:59 replicate_layout.replicatelayout 261:All sheets to replicate sorted and without pivot_sheet:
+[['11-20'], ['21-30'], ['31-40'], ['41-50']]
+12-06 11:27:03 replicate_layout.replicatelayout 220:construcing a list of sheets suitable for replication on level:'01-10', file:'grp_10_Pin.sch'
+12-06 11:27:03 replicate_layout.replicatelayout 227:Sheet ids up to the level:['01-10']
+12-06 11:27:03 replicate_layout.replicatelayout 231:Footprints on the sheets:
+['J01', 'J41', 'J31', 'J21', 'J11']
+12-06 11:27:03 replicate_layout.replicatelayout 234:Footprints raw sheet ids:
+['/5E641EC8/5E6A9E8D', '/615B5DD5/5E6A9E8D', '/61533310/5E6A9E8D', '/614B0FD3/5E6A9E8D', '/6133F774/5E6A9E8D']
+12-06 11:27:03 replicate_layout.replicatelayout 250:All sheets to replicate:
+[['01-10'], ['41-50'], ['31-40'], ['21-30'], ['11-20']]
+12-06 11:27:03 replicate_layout.replicatelayout 255:All sheets to replicate sorted:
+[['01-10'], ['11-20'], ['21-30'], ['31-40'], ['41-50']]
+12-06 11:27:03 replicate_layout.replicatelayout 261:All sheets to replicate sorted and without pivot_sheet:
+[['11-20'], ['21-30'], ['31-40'], ['41-50']]
+12-06 11:27:03 replicate_layout.action_replicate_layout 268:Replicating layout
+12-06 11:27:03 replicate_layout.replicatelayout 883:Starting replication of sheets: [['11-20'], ['21-30'], ['31-40'], ['41-50']]
+on level: ['01-10']
+with tracks=True, zone=True, text=True, containing=True, remov=False
+12-06 11:27:03 replicate_layout.replicatelayout 516:Getting the list of pivot footprints
+12-06 11:27:03 replicate_layout.replicatelayout 519:Getting the list of all the remaining footprints
+12-06 11:27:03 replicate_layout.replicatelayout 522:Getting nets local to pivot footprints
+12-06 11:27:03 replicate_layout.replicatelayout 525:Getting pivot bounding box
+12-06 11:27:03 replicate_layout.replicatelayout 528:Getting pivot tracks
+12-06 11:27:03 replicate_layout.replicatelayout 531:Getting pivot zones
+12-06 11:27:03 replicate_layout.replicatelayout 534:Getting pivot text items
+12-06 11:27:03 replicate_layout.replicatelayout 537:Getting pivot text items
+12-06 11:27:03 replicate_layout.replicatelayout 541:Replicating footprints
+12-06 11:27:03 replicate_layout.replicatelayout 543:Replicating footprints on sheet ['11-20']
+12-06 11:27:03 replicate_layout.replicatelayout 543:Replicating footprints on sheet ['21-30']
+12-06 11:27:03 replicate_layout.replicatelayout 543:Replicating footprints on sheet ['31-40']
+12-06 11:27:03 replicate_layout.replicatelayout 543:Replicating footprints on sheet ['41-50']
+12-06 11:27:03 replicate_layout.replicatelayout 651:Replicating tracks
+12-06 11:27:03 replicate_layout.replicatelayout 653:Replicating tracks on sheet ['11-20']
+12-06 11:27:03 replicate_layout.replicatelayout 653:Replicating tracks on sheet ['21-30']
+12-06 11:27:04 replicate_layout.replicatelayout 653:Replicating tracks on sheet ['31-40']
+12-06 11:27:04 replicate_layout.replicatelayout 653:Replicating tracks on sheet ['41-50']
+12-06 11:27:04 replicate_layout.replicatelayout 694:Replicating zones
+12-06 11:27:04 replicate_layout.replicatelayout 697:Replicating zones on sheet ['11-20']
+12-06 11:27:04 replicate_layout.replicatelayout 697:Replicating zones on sheet ['21-30']
+12-06 11:27:04 replicate_layout.replicatelayout 697:Replicating zones on sheet ['31-40']
+12-06 11:27:04 replicate_layout.replicatelayout 697:Replicating zones on sheet ['41-50']
+12-06 11:27:04 replicate_layout.replicatelayout 750:Replicating text
+12-06 11:27:04 replicate_layout.replicatelayout 753:Replicating text on sheet ['11-20']
+12-06 11:27:04 replicate_layout.replicatelayout 753:Replicating text on sheet ['21-30']
+12-06 11:27:04 replicate_layout.replicatelayout 753:Replicating text on sheet ['31-40']
+12-06 11:27:04 replicate_layout.replicatelayout 753:Replicating text on sheet ['41-50']
+12-06 11:27:04 replicate_layout.replicatelayout 771:Replicating drawings
+12-06 11:27:04 replicate_layout.replicatelayout 773:Replicating drawings on sheet ['11-20']
+12-06 11:27:04 replicate_layout.replicatelayout 773:Replicating drawings on sheet ['21-30']
+12-06 11:27:04 replicate_layout.replicatelayout 773:Replicating drawings on sheet ['31-40']
+12-06 11:27:04 replicate_layout.replicatelayout 773:Replicating drawings on sheet ['41-50']
+12-06 11:27:04 replicate_layout.action_replicate_layout 278:Replication complete
