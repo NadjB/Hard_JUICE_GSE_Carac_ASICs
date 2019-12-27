@@ -2027,4 +2027,76 @@ F 3 "" H 1700 10850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1700 10850 1700 10750
+$Comp
+L Amplifier_Operational:OPA4376 U1
+U 5 1 6238513D
+P 7100 10275
+F 0 "U1" H 7058 10321 50  0000 L CNN
+F 1 "OPA4376" H 7058 10230 50  0000 L CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 7050 10375 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/opa376.pdf" H 7150 10475 50  0001 C CNN
+	5    7100 10275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:OPA4376 U1
+U 4 1 623861C7
+P 6200 10275
+F 0 "U1" H 6200 10642 50  0000 C CNN
+F 1 "OPA4376" H 6200 10551 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 6150 10375 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/opa376.pdf" H 6250 10475 50  0001 C CNN
+	4    6200 10275
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 623980F1
+P 7000 10675
+F 0 "#PWR0101" H 7000 10425 50  0001 C CNN
+F 1 "GND" H 7005 10502 50  0000 C CNN
+F 2 "" H 7000 10675 50  0001 C CNN
+F 3 "" H 7000 10675 50  0001 C CNN
+	1    7000 10675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 10675 7000 10625
+Wire Wire Line
+	7000 9975 7000 9900
+Wire Wire Line
+	7000 9900 7100 9900
+Text Label 7100 9900 0    50   ~ 0
++12v
+Wire Wire Line
+	13575 1600 13350 1600
+Text Label 13350 1600 2    50   ~ 0
++12v
+Wire Wire Line
+	5900 10175 5550 10175
+Wire Wire Line
+	5550 10175 5550 10575
+Wire Wire Line
+	5900 10375 5775 10375
+Wire Wire Line
+	5775 10375 5775 10575
+Wire Wire Line
+	6500 10275 6525 10275
+Wire Wire Line
+	6525 10275 6525 10575
+Wire Wire Line
+	5550 10575 5775 10575
+Wire Wire Line
+	6900 10575 6900 10625
+Wire Wire Line
+	6900 10625 7000 10625
+Connection ~ 5775 10575
+Wire Wire Line
+	5775 10575 6525 10575
+Connection ~ 7000 10625
+Wire Wire Line
+	7000 10625 7000 10575
+Connection ~ 6525 10575
+Wire Wire Line
+	6525 10575 6900 10575
 $EndSCHEMATC
