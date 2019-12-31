@@ -1,0 +1,77 @@
+08-27 16:02:37 replicate_layout.action_replicate_layout 159:Replicate layout plugin version: 34 started
+08-27 16:02:37 replicate_layout.action_replicate_layout 191:Preparing replicator with RX33 as a reference
+08-27 16:02:37 replicate_layout.replicatelayout 183:getting project hierarchy from schematics
+08-27 16:02:37 replicate_layout.replicatelayout 185:Project hierarchy looks like:
+{'5D6520CE': ['AsicScreening01', '/home/ba/Documents/CNRS/FM/Burn-in/CarteScreening/AsicScreening01.sch'], '5D5EAAA6': ['ChannelX', '/home/ba/Documents/CNRS/FM/Burn-in/CarteScreening/Channels.sch'], '5D83A418': ['ChannelY', '/home/ba/Documents/CNRS/FM/Burn-in/CarteScreening/Channels.sch'], '5D843251': ['ChannelZ', '/home/ba/Documents/CNRS/FM/Burn-in/CarteScreening/Channels.sch']}
+08-27 16:02:37 replicate_layout.replicatelayout 193:getting a list of all footprints on board
+08-27 16:02:37 replicate_layout.action_replicate_layout 217:Pivot footprint is 'RX33'
+Located on:['AsicScreening01', 'ChannelX']
+With filenames:['AsicScreening01.sch', 'Channels.sch']
+With sheet_id:['AsicScreening01', 'ChannelX']
+08-27 16:02:37 replicate_layout.action_replicate_layout 221:Corresponding footprints are 
+[('RZ33', ['AsicScreening01', 'ChannelZ']), ('RY33', ['AsicScreening01', 'ChannelY']), ('RX33', ['AsicScreening01', 'ChannelX'])]
+08-27 16:02:37 replicate_layout.action_replicate_layout 234:Showing dialog
+08-27 16:02:37 replicate_layout.replicatelayout 220:construcing a list of sheets suitable for replication on level:'AsicScreening01', file:'AsicScreening01.sch'
+08-27 16:02:37 replicate_layout.replicatelayout 227:Sheet ids up to the level:['AsicScreening01']
+08-27 16:02:37 replicate_layout.replicatelayout 231:Footprints on the sheets:
+['RZ33', 'RY33', 'RX33']
+08-27 16:02:37 replicate_layout.replicatelayout 234:Footprints raw sheet ids:
+['/5D6520CE/5D843251/5D83863F', '/5D6520CE/5D83A418/5D83863F', '/5D6520CE/5D5EAAA6/5D83863F']
+08-27 16:02:37 replicate_layout.replicatelayout 250:All sheets to replicate:
+[['AsicScreening01'], ['AsicScreening01'], ['AsicScreening01']]
+08-27 16:02:37 replicate_layout.replicatelayout 255:All sheets to replicate sorted:
+[['AsicScreening01']]
+08-27 16:02:37 replicate_layout.replicatelayout 261:All sheets to replicate sorted and without pivot_sheet:
+[]
+08-27 16:02:43 replicate_layout.replicatelayout 220:construcing a list of sheets suitable for replication on level:'ChannelX', file:'Channels.sch'
+08-27 16:02:43 replicate_layout.replicatelayout 227:Sheet ids up to the level:['AsicScreening01', 'ChannelX']
+08-27 16:02:43 replicate_layout.replicatelayout 231:Footprints on the sheets:
+['RZ33', 'RY33', 'RX33']
+08-27 16:02:43 replicate_layout.replicatelayout 234:Footprints raw sheet ids:
+['/5D6520CE/5D843251/5D83863F', '/5D6520CE/5D83A418/5D83863F', '/5D6520CE/5D5EAAA6/5D83863F']
+08-27 16:02:43 replicate_layout.replicatelayout 250:All sheets to replicate:
+[['AsicScreening01', 'ChannelZ'], ['AsicScreening01', 'ChannelY'], ['AsicScreening01', 'ChannelX']]
+08-27 16:02:43 replicate_layout.replicatelayout 255:All sheets to replicate sorted:
+[['AsicScreening01', 'ChannelX'], ['AsicScreening01', 'ChannelY'], ['AsicScreening01', 'ChannelZ']]
+08-27 16:02:43 replicate_layout.replicatelayout 261:All sheets to replicate sorted and without pivot_sheet:
+[['AsicScreening01', 'ChannelY'], ['AsicScreening01', 'ChannelZ']]
+08-27 16:02:49 replicate_layout.replicatelayout 220:construcing a list of sheets suitable for replication on level:'ChannelX', file:'Channels.sch'
+08-27 16:02:49 replicate_layout.replicatelayout 227:Sheet ids up to the level:['AsicScreening01', 'ChannelX']
+08-27 16:02:49 replicate_layout.replicatelayout 231:Footprints on the sheets:
+['RZ33', 'RY33', 'RX33']
+08-27 16:02:49 replicate_layout.replicatelayout 234:Footprints raw sheet ids:
+['/5D6520CE/5D843251/5D83863F', '/5D6520CE/5D83A418/5D83863F', '/5D6520CE/5D5EAAA6/5D83863F']
+08-27 16:02:49 replicate_layout.replicatelayout 250:All sheets to replicate:
+[['AsicScreening01', 'ChannelZ'], ['AsicScreening01', 'ChannelY'], ['AsicScreening01', 'ChannelX']]
+08-27 16:02:49 replicate_layout.replicatelayout 255:All sheets to replicate sorted:
+[['AsicScreening01', 'ChannelX'], ['AsicScreening01', 'ChannelY'], ['AsicScreening01', 'ChannelZ']]
+08-27 16:02:49 replicate_layout.replicatelayout 261:All sheets to replicate sorted and without pivot_sheet:
+[['AsicScreening01', 'ChannelY'], ['AsicScreening01', 'ChannelZ']]
+08-27 16:02:49 replicate_layout.action_replicate_layout 268:Replicating layout
+08-27 16:02:49 replicate_layout.replicatelayout 883:Starting replication of sheets: [['AsicScreening01', 'ChannelY'], ['AsicScreening01', 'ChannelZ']]
+on level: ['AsicScreening01', 'ChannelX']
+with tracks=True, zone=True, text=True, containing=True, remov=False
+08-27 16:02:49 replicate_layout.replicatelayout 516:Getting the list of pivot footprints
+08-27 16:02:49 replicate_layout.replicatelayout 519:Getting the list of all the remaining footprints
+08-27 16:02:49 replicate_layout.replicatelayout 522:Getting nets local to pivot footprints
+08-27 16:02:49 replicate_layout.replicatelayout 525:Getting pivot bounding box
+08-27 16:02:49 replicate_layout.replicatelayout 528:Getting pivot tracks
+08-27 16:02:49 replicate_layout.replicatelayout 531:Getting pivot zones
+08-27 16:02:49 replicate_layout.replicatelayout 534:Getting pivot text items
+08-27 16:02:49 replicate_layout.replicatelayout 537:Getting pivot text items
+08-27 16:02:49 replicate_layout.replicatelayout 541:Replicating footprints
+08-27 16:02:49 replicate_layout.replicatelayout 543:Replicating footprints on sheet ['AsicScreening01', 'ChannelY']
+08-27 16:02:49 replicate_layout.replicatelayout 543:Replicating footprints on sheet ['AsicScreening01', 'ChannelZ']
+08-27 16:02:49 replicate_layout.replicatelayout 651:Replicating tracks
+08-27 16:02:49 replicate_layout.replicatelayout 653:Replicating tracks on sheet ['AsicScreening01', 'ChannelY']
+08-27 16:02:49 replicate_layout.replicatelayout 653:Replicating tracks on sheet ['AsicScreening01', 'ChannelZ']
+08-27 16:02:49 replicate_layout.replicatelayout 694:Replicating zones
+08-27 16:02:49 replicate_layout.replicatelayout 697:Replicating zones on sheet ['AsicScreening01', 'ChannelY']
+08-27 16:02:49 replicate_layout.replicatelayout 697:Replicating zones on sheet ['AsicScreening01', 'ChannelZ']
+08-27 16:02:49 replicate_layout.replicatelayout 750:Replicating text
+08-27 16:02:49 replicate_layout.replicatelayout 753:Replicating text on sheet ['AsicScreening01', 'ChannelY']
+08-27 16:02:49 replicate_layout.replicatelayout 753:Replicating text on sheet ['AsicScreening01', 'ChannelZ']
+08-27 16:02:49 replicate_layout.replicatelayout 771:Replicating drawings
+08-27 16:02:49 replicate_layout.replicatelayout 773:Replicating drawings on sheet ['AsicScreening01', 'ChannelY']
+08-27 16:02:49 replicate_layout.replicatelayout 773:Replicating drawings on sheet ['AsicScreening01', 'ChannelZ']
+08-27 16:02:49 replicate_layout.action_replicate_layout 278:Replication complete

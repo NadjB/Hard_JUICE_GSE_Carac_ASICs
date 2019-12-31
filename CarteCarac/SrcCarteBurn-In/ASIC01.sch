@@ -1,0 +1,934 @@
+EESchema Schematic File Version 4
+LIBS:CarteBurn-in-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 33
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	4475 4200 4575 4200
+Wire Wire Line
+	4475 4300 4575 4300
+Text HLabel 8375 800  0    50   Input ~ 0
++6V_A
+$Comp
+L LibBurnInJuice:8500-50mm-64T U1
+U 1 1 5D5BEC26
+P 3075 4050
+AR Path="/5D4C7E56/5D5BEC26" Ref="U1"  Part="1" 
+AR Path="/5D4DDD58/5D5BEC26" Ref="U2"  Part="1" 
+AR Path="/5D4DE278/5D5BEC26" Ref="U3"  Part="1" 
+AR Path="/5D4DE28E/5D5BEC26" Ref="U4"  Part="1" 
+AR Path="/5D4DF33C/5D5BEC26" Ref="U5"  Part="1" 
+AR Path="/5D4DF352/5D5BEC26" Ref="U6"  Part="1" 
+AR Path="/5D4DF368/5D5BEC26" Ref="U7"  Part="1" 
+AR Path="/5D4DF37E/5D5BEC26" Ref="U8"  Part="1" 
+AR Path="/5D5BEC26" Ref="U2"  Part="1" 
+F 0 "U1" H 3025 4150 50  0000 L CNN
+F 1 "8500-50mm-64T" H 2800 3975 50  0000 L CNN
+F 2 "LibBurnInJuice:8500-50mm-64T-Ovale-EuroCircuitOK" H 3075 4000 50  0001 C CNN
+F 3 "" H 3075 4000 50  0001 C CNN
+	1    3075 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2125 2650 2225 2650
+Connection ~ 2225 2650
+Wire Wire Line
+	2225 2650 2275 2650
+Connection ~ 2325 2650
+Wire Wire Line
+	2325 2650 2425 2650
+$Comp
+L power:GND #PWR0108
+U 1 1 5D5C3C9A
+P 2275 2650
+AR Path="/5D4DF37E/5D5C3C9A" Ref="#PWR0108"  Part="1" 
+AR Path="/5D4DDD58/5D5C3C9A" Ref="#PWR0103"  Part="1" 
+AR Path="/5D4C7E56/5D5C3C9A" Ref="#PWR0102"  Part="1" 
+AR Path="/5D4DE278/5D5C3C9A" Ref="#PWR0104"  Part="1" 
+AR Path="/5D4DE28E/5D5C3C9A" Ref="#PWR0105"  Part="1" 
+AR Path="/5D4DF33C/5D5C3C9A" Ref="#PWR0106"  Part="1" 
+AR Path="/5D4DF368/5D5C3C9A" Ref="#PWR0107"  Part="1" 
+AR Path="/5D4DF352/5D5C3C9A" Ref="#PWR0109"  Part="1" 
+F 0 "#PWR0109" H 2275 2400 50  0001 C CNN
+F 1 "GND" H 2280 2477 50  0000 C CNN
+F 2 "" H 2275 2650 50  0001 C CNN
+F 3 "" H 2275 2650 50  0001 C CNN
+	1    2275 2650
+	-1   0    0    1   
+$EndComp
+Connection ~ 2275 2650
+Wire Wire Line
+	2275 2650 2325 2650
+$Comp
+L power:GND #PWR0170
+U 1 1 5D5E7BE8
+P 1675 4100
+AR Path="/5D4DF37E/5D5E7BE8" Ref="#PWR0170"  Part="1" 
+AR Path="/5D4DDD58/5D5E7BE8" Ref="#PWR0120"  Part="1" 
+AR Path="/5D4C7E56/5D5E7BE8" Ref="#PWR0110"  Part="1" 
+AR Path="/5D4DE278/5D5E7BE8" Ref="#PWR0130"  Part="1" 
+AR Path="/5D4DE28E/5D5E7BE8" Ref="#PWR0140"  Part="1" 
+AR Path="/5D4DF33C/5D5E7BE8" Ref="#PWR0150"  Part="1" 
+AR Path="/5D4DF368/5D5E7BE8" Ref="#PWR0160"  Part="1" 
+AR Path="/5D4DF352/5D5E7BE8" Ref="#PWR0180"  Part="1" 
+F 0 "#PWR0180" H 1675 3850 50  0001 C CNN
+F 1 "GND" V 1680 3927 50  0000 C CNN
+F 2 "" H 1675 4100 50  0001 C CNN
+F 3 "" H 1675 4100 50  0001 C CNN
+	1    1675 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0171
+U 1 1 5D5E886B
+P 1675 4700
+AR Path="/5D4DF37E/5D5E886B" Ref="#PWR0171"  Part="1" 
+AR Path="/5D4DDD58/5D5E886B" Ref="#PWR0121"  Part="1" 
+AR Path="/5D4C7E56/5D5E886B" Ref="#PWR0111"  Part="1" 
+AR Path="/5D4DE278/5D5E886B" Ref="#PWR0131"  Part="1" 
+AR Path="/5D4DE28E/5D5E886B" Ref="#PWR0141"  Part="1" 
+AR Path="/5D4DF33C/5D5E886B" Ref="#PWR0151"  Part="1" 
+AR Path="/5D4DF368/5D5E886B" Ref="#PWR0161"  Part="1" 
+AR Path="/5D4DF352/5D5E886B" Ref="#PWR0181"  Part="1" 
+F 0 "#PWR0181" H 1675 4450 50  0001 C CNN
+F 1 "GND" V 1680 4527 50  0000 C CNN
+F 2 "" H 1675 4700 50  0001 C CNN
+F 3 "" H 1675 4700 50  0001 C CNN
+	1    1675 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0172
+U 1 1 5D5E913A
+P 1675 4800
+AR Path="/5D4DF37E/5D5E913A" Ref="#PWR0172"  Part="1" 
+AR Path="/5D4DDD58/5D5E913A" Ref="#PWR0122"  Part="1" 
+AR Path="/5D4C7E56/5D5E913A" Ref="#PWR0112"  Part="1" 
+AR Path="/5D4DE278/5D5E913A" Ref="#PWR0132"  Part="1" 
+AR Path="/5D4DE28E/5D5E913A" Ref="#PWR0142"  Part="1" 
+AR Path="/5D4DF33C/5D5E913A" Ref="#PWR0152"  Part="1" 
+AR Path="/5D4DF368/5D5E913A" Ref="#PWR0162"  Part="1" 
+AR Path="/5D4DF352/5D5E913A" Ref="#PWR0182"  Part="1" 
+F 0 "#PWR0182" H 1675 4550 50  0001 C CNN
+F 1 "GND" V 1680 4627 50  0000 C CNN
+F 2 "" H 1675 4800 50  0001 C CNN
+F 3 "" H 1675 4800 50  0001 C CNN
+	1    1675 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0173
+U 1 1 5D5E92CF
+P 1675 3800
+AR Path="/5D4DF37E/5D5E92CF" Ref="#PWR0173"  Part="1" 
+AR Path="/5D4DDD58/5D5E92CF" Ref="#PWR0123"  Part="1" 
+AR Path="/5D4C7E56/5D5E92CF" Ref="#PWR0113"  Part="1" 
+AR Path="/5D4DE278/5D5E92CF" Ref="#PWR0133"  Part="1" 
+AR Path="/5D4DE28E/5D5E92CF" Ref="#PWR0143"  Part="1" 
+AR Path="/5D4DF33C/5D5E92CF" Ref="#PWR0153"  Part="1" 
+AR Path="/5D4DF368/5D5E92CF" Ref="#PWR0163"  Part="1" 
+AR Path="/5D4DF352/5D5E92CF" Ref="#PWR0183"  Part="1" 
+F 0 "#PWR0183" H 1675 3550 50  0001 C CNN
+F 1 "GND" V 1680 3627 50  0000 C CNN
+F 2 "" H 1675 3800 50  0001 C CNN
+F 3 "" H 1675 3800 50  0001 C CNN
+	1    1675 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0174
+U 1 1 5D5E9704
+P 2325 5450
+AR Path="/5D4DF37E/5D5E9704" Ref="#PWR0174"  Part="1" 
+AR Path="/5D4DDD58/5D5E9704" Ref="#PWR0124"  Part="1" 
+AR Path="/5D4C7E56/5D5E9704" Ref="#PWR0114"  Part="1" 
+AR Path="/5D4DE278/5D5E9704" Ref="#PWR0134"  Part="1" 
+AR Path="/5D4DE28E/5D5E9704" Ref="#PWR0144"  Part="1" 
+AR Path="/5D4DF33C/5D5E9704" Ref="#PWR0154"  Part="1" 
+AR Path="/5D4DF368/5D5E9704" Ref="#PWR0164"  Part="1" 
+AR Path="/5D4DF352/5D5E9704" Ref="#PWR0184"  Part="1" 
+F 0 "#PWR0184" H 2325 5200 50  0001 C CNN
+F 1 "GND" H 2330 5277 50  0000 C CNN
+F 2 "" H 2325 5450 50  0001 C CNN
+F 3 "" H 2325 5450 50  0001 C CNN
+	1    2325 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0175
+U 1 1 5D5E9C0C
+P 2425 5450
+AR Path="/5D4DF37E/5D5E9C0C" Ref="#PWR0175"  Part="1" 
+AR Path="/5D4DDD58/5D5E9C0C" Ref="#PWR0125"  Part="1" 
+AR Path="/5D4C7E56/5D5E9C0C" Ref="#PWR0115"  Part="1" 
+AR Path="/5D4DE278/5D5E9C0C" Ref="#PWR0135"  Part="1" 
+AR Path="/5D4DE28E/5D5E9C0C" Ref="#PWR0145"  Part="1" 
+AR Path="/5D4DF33C/5D5E9C0C" Ref="#PWR0155"  Part="1" 
+AR Path="/5D4DF368/5D5E9C0C" Ref="#PWR0165"  Part="1" 
+AR Path="/5D4DF352/5D5E9C0C" Ref="#PWR0185"  Part="1" 
+F 0 "#PWR0185" H 2425 5200 50  0001 C CNN
+F 1 "GND" H 2430 5277 50  0000 C CNN
+F 2 "" H 2425 5450 50  0001 C CNN
+F 3 "" H 2425 5450 50  0001 C CNN
+	1    2425 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0176
+U 1 1 5D5E9E4B
+P 3325 5450
+AR Path="/5D4DF37E/5D5E9E4B" Ref="#PWR0176"  Part="1" 
+AR Path="/5D4DDD58/5D5E9E4B" Ref="#PWR0126"  Part="1" 
+AR Path="/5D4C7E56/5D5E9E4B" Ref="#PWR0116"  Part="1" 
+AR Path="/5D4DE278/5D5E9E4B" Ref="#PWR0136"  Part="1" 
+AR Path="/5D4DE28E/5D5E9E4B" Ref="#PWR0146"  Part="1" 
+AR Path="/5D4DF33C/5D5E9E4B" Ref="#PWR0156"  Part="1" 
+AR Path="/5D4DF368/5D5E9E4B" Ref="#PWR0166"  Part="1" 
+AR Path="/5D4DF352/5D5E9E4B" Ref="#PWR0186"  Part="1" 
+F 0 "#PWR0186" H 3325 5200 50  0001 C CNN
+F 1 "GND" H 3330 5277 50  0000 C CNN
+F 2 "" H 3325 5450 50  0001 C CNN
+F 3 "" H 3325 5450 50  0001 C CNN
+	1    3325 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0177
+U 1 1 5D5EA328
+P 3025 5450
+AR Path="/5D4DF37E/5D5EA328" Ref="#PWR0177"  Part="1" 
+AR Path="/5D4DDD58/5D5EA328" Ref="#PWR0127"  Part="1" 
+AR Path="/5D4C7E56/5D5EA328" Ref="#PWR0117"  Part="1" 
+AR Path="/5D4DE278/5D5EA328" Ref="#PWR0137"  Part="1" 
+AR Path="/5D4DE28E/5D5EA328" Ref="#PWR0147"  Part="1" 
+AR Path="/5D4DF33C/5D5EA328" Ref="#PWR0157"  Part="1" 
+AR Path="/5D4DF368/5D5EA328" Ref="#PWR0167"  Part="1" 
+AR Path="/5D4DF352/5D5EA328" Ref="#PWR0187"  Part="1" 
+F 0 "#PWR0187" H 3025 5200 50  0001 C CNN
+F 1 "GND" H 3030 5277 50  0000 C CNN
+F 2 "" H 3025 5450 50  0001 C CNN
+F 3 "" H 3025 5450 50  0001 C CNN
+	1    3025 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0178
+U 1 1 5D5EA6E9
+P 4475 3700
+AR Path="/5D4DF37E/5D5EA6E9" Ref="#PWR0178"  Part="1" 
+AR Path="/5D4DDD58/5D5EA6E9" Ref="#PWR0128"  Part="1" 
+AR Path="/5D4C7E56/5D5EA6E9" Ref="#PWR0118"  Part="1" 
+AR Path="/5D4DE278/5D5EA6E9" Ref="#PWR0138"  Part="1" 
+AR Path="/5D4DE28E/5D5EA6E9" Ref="#PWR0148"  Part="1" 
+AR Path="/5D4DF33C/5D5EA6E9" Ref="#PWR0158"  Part="1" 
+AR Path="/5D4DF368/5D5EA6E9" Ref="#PWR0168"  Part="1" 
+AR Path="/5D4DF352/5D5EA6E9" Ref="#PWR0188"  Part="1" 
+F 0 "#PWR0188" H 4475 3450 50  0001 C CNN
+F 1 "GND" V 4480 3527 50  0000 C CNN
+F 2 "" H 4475 3700 50  0001 C CNN
+F 3 "" H 4475 3700 50  0001 C CNN
+	1    4475 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0179
+U 1 1 5D5EB801
+P 3125 2650
+AR Path="/5D4DF37E/5D5EB801" Ref="#PWR0179"  Part="1" 
+AR Path="/5D4DDD58/5D5EB801" Ref="#PWR0129"  Part="1" 
+AR Path="/5D4C7E56/5D5EB801" Ref="#PWR0119"  Part="1" 
+AR Path="/5D4DE278/5D5EB801" Ref="#PWR0139"  Part="1" 
+AR Path="/5D4DE28E/5D5EB801" Ref="#PWR0149"  Part="1" 
+AR Path="/5D4DF33C/5D5EB801" Ref="#PWR0159"  Part="1" 
+AR Path="/5D4DF368/5D5EB801" Ref="#PWR0169"  Part="1" 
+AR Path="/5D4DF352/5D5EB801" Ref="#PWR0189"  Part="1" 
+F 0 "#PWR0189" H 3125 2400 50  0001 C CNN
+F 1 "GND" H 3130 2477 50  0000 C CNN
+F 2 "" H 3125 2650 50  0001 C CNN
+F 3 "" H 3125 2650 50  0001 C CNN
+	1    3125 2650
+	-1   0    0    1   
+$EndComp
+Text Label 4025 1650 0    50   ~ 0
+In2N_Y
+Text Label 4025 1525 0    50   ~ 0
+Out2_inv_Y
+Text Label 3025 900  0    50   ~ 0
+VDD_X
+Text Label 925  4300 0    50   ~ 0
+In2N_X
+Text Label 925  3600 0    50   ~ 0
+In2P_X
+Text Label 925  3900 0    50   ~ 0
+Out1_X
+Text Label 925  4000 0    50   ~ 0
+In1N_X
+Text Label 925  3700 0    50   ~ 0
+In1P_X
+Text Label 925  3500 0    50   ~ 0
+Regu_Bias_LNA_X
+Text Label 3025 775  0    50   ~ 0
+V_Bias_LNA_X
+Text Label 925  3400 0    50   ~ 0
+Regu_VDD_X
+Text Label 3025 1025 0    50   ~ 0
+CAL_In_X
+Text Label 3025 1275 0    50   ~ 0
+CAL_Gain_X
+Text Label 3025 1150 0    50   ~ 0
+CAL_Out_X
+Text Label 925  4500 0    50   ~ 0
+Gain_Out2_P_X
+Text Label 925  4400 0    50   ~ 0
+Gain_Out2_N_X
+Text Label 925  4200 0    50   ~ 0
+Out2_NInv_X
+Text Label 925  4600 0    50   ~ 0
+Out2_inv_X
+Wire Wire Line
+	4025 2650 4025 2575
+Wire Wire Line
+	3925 2650 3925 2450
+Wire Wire Line
+	3925 2450 4025 2450
+Wire Wire Line
+	3825 2650 3825 2325
+Wire Wire Line
+	3825 2325 4025 2325
+Wire Wire Line
+	3725 2650 3725 2200
+Wire Wire Line
+	3725 2200 4025 2200
+Wire Wire Line
+	3625 2650 3625 2075
+Wire Wire Line
+	3625 2075 4025 2075
+Wire Wire Line
+	3525 2650 3525 1950
+Wire Wire Line
+	3525 1950 4025 1950
+Wire Wire Line
+	3425 2650 3425 1800
+Wire Wire Line
+	3425 1800 4025 1800
+Wire Wire Line
+	3325 2650 3325 1650
+Wire Wire Line
+	3325 1650 4025 1650
+Wire Wire Line
+	3225 2650 3225 1525
+Wire Wire Line
+	3225 1525 4025 1525
+Wire Wire Line
+	4475 4100 4575 4100
+Wire Wire Line
+	4475 4000 4575 4000
+Wire Wire Line
+	4475 3900 4575 3900
+Wire Wire Line
+	4475 3800 4575 3800
+Wire Wire Line
+	4475 3600 4575 3600
+Wire Wire Line
+	4475 3500 4575 3500
+Wire Wire Line
+	4475 3400 4575 3400
+Wire Wire Line
+	4475 3300 4575 3300
+Wire Wire Line
+	4475 4800 4575 4800
+Wire Wire Line
+	4475 4700 4575 4700
+Wire Wire Line
+	4475 4600 4575 4600
+Wire Wire Line
+	4475 4500 4575 4500
+Wire Wire Line
+	3825 5450 3825 5575
+Wire Wire Line
+	3725 5450 3725 5700
+Wire Wire Line
+	3725 5700 3825 5700
+Wire Wire Line
+	3625 5450 3625 5825
+Wire Wire Line
+	3625 5825 3825 5825
+Wire Wire Line
+	3525 5450 3525 5950
+Wire Wire Line
+	3525 5950 3825 5950
+Wire Wire Line
+	3425 5450 3425 6075
+Wire Wire Line
+	3425 6075 3825 6075
+Wire Wire Line
+	3225 5450 3225 6200
+Wire Wire Line
+	3225 6200 3825 6200
+Wire Wire Line
+	3125 5450 3125 6325
+Wire Wire Line
+	3125 6325 3825 6325
+Wire Wire Line
+	2925 5450 2925 6450
+Wire Wire Line
+	2925 6450 3825 6450
+Wire Wire Line
+	2825 5450 2825 6575
+Wire Wire Line
+	2825 6575 3825 6575
+Wire Wire Line
+	2725 5450 2725 6700
+Wire Wire Line
+	2725 6700 3825 6700
+Wire Wire Line
+	2625 5450 2625 6825
+Wire Wire Line
+	2625 6825 3825 6825
+Wire Wire Line
+	2525 5450 2525 6950
+Wire Wire Line
+	2525 6950 3825 6950
+Wire Wire Line
+	4475 4400 4575 4400
+Text Label 925  3300 0    50   ~ 0
+M_X
+Wire Wire Line
+	925  3400 1675 3400
+Wire Wire Line
+	925  3500 1675 3500
+Wire Wire Line
+	925  3600 1675 3600
+Wire Wire Line
+	925  3700 1675 3700
+Wire Wire Line
+	925  3900 1675 3900
+Wire Wire Line
+	925  4000 1675 4000
+Wire Wire Line
+	925  4200 1675 4200
+Wire Wire Line
+	925  4300 1675 4300
+Wire Wire Line
+	925  4400 1675 4400
+Wire Wire Line
+	925  4500 1675 4500
+Wire Wire Line
+	925  4600 1675 4600
+Wire Wire Line
+	925  3300 1675 3300
+Text Label 4575 3600 0    50   ~ 0
+VDD_Y
+Text Label 4575 3300 0    50   ~ 0
+M_Y
+Text Label 4025 2325 0    50   ~ 0
+In2P_Y
+Text Label 4025 2075 0    50   ~ 0
+Out1_Y
+Text Label 4025 1950 0    50   ~ 0
+In1N_Y
+Text Label 4025 2200 0    50   ~ 0
+In1P_Y
+Text Label 4575 3500 0    50   ~ 0
+Regu_Bias_LNA_Y
+Text Label 4575 3400 0    50   ~ 0
+V_Bias_LNA_Y
+Text Label 4575 3800 0    50   ~ 0
+Regu_VDD_Y
+Text Label 4575 3900 0    50   ~ 0
+CAL_In_Y
+Text Label 4575 4100 0    50   ~ 0
+CAL_Gain_Y
+Text Label 4575 4000 0    50   ~ 0
+CAL_Out_Y
+Text Label 4025 2450 0    50   ~ 0
+Gain_Out2_P_Y
+Text Label 4025 1800 0    50   ~ 0
+Gain_Out2_N_Y
+Text Label 4025 2575 0    50   ~ 0
+Out2_NInv_Y
+Text Label 4575 4700 0    50   ~ 0
+VDD_Z
+Text Label 3825 5575 0    50   ~ 0
+M_Z
+Text Label 3825 6575 0    50   ~ 0
+In2N_Z
+Text Label 3825 5950 0    50   ~ 0
+In2P_Z
+Text Label 3825 6200 0    50   ~ 0
+Out1_Z
+Text Label 3825 6325 0    50   ~ 0
+In1N_Z
+Text Label 3825 6075 0    50   ~ 0
+In1P_Z
+Text Label 3825 5825 0    50   ~ 0
+Regu_Bias_LNA_Z
+Text Label 4575 4800 0    50   ~ 0
+V_Bias_LNA_Z
+Text Label 3825 5700 0    50   ~ 0
+Regu_VDD_Z
+Text Label 4575 4600 0    50   ~ 0
+CAL_In_Z
+Text Label 4575 4400 0    50   ~ 0
+CAL_Gain_Z
+Text Label 4575 4500 0    50   ~ 0
+CAL_Out_Z
+Text Label 3825 6825 0    50   ~ 0
+Gain_Out2_P_Z
+Text Label 3825 6700 0    50   ~ 0
+Gain_Out2_N_Z
+Text Label 3825 6450 0    50   ~ 0
+Out2_NInv_Z
+Text Label 3825 6950 0    50   ~ 0
+Out2_inv_Z
+Text Label 8375 925  0    50   ~ 0
+VDD_X
+Text Label 8375 1050 0    50   ~ 0
+M_X
+Text Label 10625 1200 0    50   ~ 0
+In2N_X
+Text Label 10625 1325 0    50   ~ 0
+In2P_X
+Text Label 8375 1175 0    50   ~ 0
+Out1_X
+Text Label 10625 950  0    50   ~ 0
+In1N_X
+Text Label 10625 1075 0    50   ~ 0
+In1P_X
+Text Label 8375 1300 0    50   ~ 0
+Regu_Bias_LNA_X
+Text Label 8375 1425 0    50   ~ 0
+V_Bias_LNA_X
+Text Label 8375 1550 0    50   ~ 0
+Regu_VDD_X
+Text Label 10625 1450 0    50   ~ 0
+CAL_In_X
+Text Label 10625 1575 0    50   ~ 0
+CAL_Gain_X
+Text Label 8375 1675 0    50   ~ 0
+CAL_Out_X
+Text Label 8375 1800 0    50   ~ 0
+Gain_Out2_P_X
+Text Label 8375 1925 0    50   ~ 0
+Gain_Out2_N_X
+Text Label 8375 2050 0    50   ~ 0
+Out2_NInv_X
+Text Label 8375 2175 0    50   ~ 0
+Out2_inv_X
+Text Label 3025 1400 0    50   ~ 0
++6V_A
+Wire Wire Line
+	3025 1400 3025 2650
+Wire Wire Line
+	2925 1275 3025 1275
+Wire Wire Line
+	2925 1275 2925 2650
+Wire Wire Line
+	3025 1150 2825 1150
+Wire Wire Line
+	2825 1150 2825 2650
+Wire Wire Line
+	2725 1025 3025 1025
+Wire Wire Line
+	2725 1025 2725 2650
+Wire Wire Line
+	3025 900  2625 900 
+Wire Wire Line
+	2625 900  2625 2650
+Wire Wire Line
+	2525 775  3025 775 
+Wire Wire Line
+	2525 775  2525 2650
+Text Label 8375 800  0    50   ~ 0
++6V_A
+$Sheet
+S 9100 4700 1375 1675
+U 5D843251
+F0 "ChannelZ" 50
+F1 "Channels.sch" 50
+F2 "+6V" I L 9100 4875 50 
+F3 "VDD" I L 9100 5000 50 
+F4 "M" I L 9100 5125 50 
+F5 "Out1" I L 9100 5250 50 
+F6 "Regu_VDD" I L 9100 5625 50 
+F7 "CAL_Out" I L 9100 5750 50 
+F8 "Gain_Out2_P" I L 9100 5875 50 
+F9 "Gain_Out2_N" I L 9100 6000 50 
+F10 "In2P" I R 10475 5400 50 
+F11 "In1N" I R 10475 5025 50 
+F12 "In1P" I R 10475 5150 50 
+F13 "CAL_In" I R 10475 5525 50 
+F14 "CAL_Gain" I R 10475 5650 50 
+F15 "CAL" I R 10475 6175 50 
+F16 "Out2_inv" I L 9100 6250 50 
+F17 "Out2_NInv" I L 9100 6125 50 
+F18 "S" I R 10475 5925 50 
+F19 "RTN" I R 10475 6050 50 
+F20 "Regu_Bias_LNA" I L 9100 5375 50 
+F21 "V_Bias_LNA" I L 9100 5500 50 
+F22 "In2N" I R 10475 5275 50 
+F23 "CR" I R 10475 5775 50 
+F24 "B" I R 10475 4900 50 
+$EndSheet
+$Sheet
+S 9100 2725 1375 1675
+U 5D83A418
+F0 "ChannelY" 50
+F1 "Channels.sch" 50
+F2 "+6V" I L 9100 2925 50 
+F3 "VDD" I L 9100 3050 50 
+F4 "M" I L 9100 3175 50 
+F5 "Out1" I L 9100 3300 50 
+F6 "Regu_VDD" I L 9100 3675 50 
+F7 "CAL_Out" I L 9100 3800 50 
+F8 "Gain_Out2_P" I L 9100 3925 50 
+F9 "Gain_Out2_N" I L 9100 4050 50 
+F10 "In2P" I R 10475 3450 50 
+F11 "In1N" I R 10475 3075 50 
+F12 "In1P" I R 10475 3200 50 
+F13 "CAL_In" I R 10475 3575 50 
+F14 "CAL_Gain" I R 10475 3700 50 
+F15 "CAL" I R 10475 4225 50 
+F16 "Out2_inv" I L 9100 4300 50 
+F17 "Out2_NInv" I L 9100 4175 50 
+F18 "S" I R 10475 3975 50 
+F19 "RTN" I R 10475 4100 50 
+F20 "Regu_Bias_LNA" I L 9100 3425 50 
+F21 "V_Bias_LNA" I L 9100 3550 50 
+F22 "In2N" I R 10475 3325 50 
+F23 "CR" I R 10475 3825 50 
+F24 "B" I R 10475 2950 50 
+$EndSheet
+Text HLabel 8375 2925 0    50   Input ~ 0
++6V_B
+Text Label 8375 3050 0    50   ~ 0
+VDD_Y
+Text Label 8375 3175 0    50   ~ 0
+M_Y
+Text Label 10625 3325 0    50   ~ 0
+In2N_Y
+Text Label 10625 3450 0    50   ~ 0
+In2P_Y
+Text Label 8375 3300 0    50   ~ 0
+Out1_Y
+Text Label 10625 3075 0    50   ~ 0
+In1N_Y
+Text Label 10625 3200 0    50   ~ 0
+In1P_Y
+Text Label 8375 3425 0    50   ~ 0
+Regu_Bias_LNA_Y
+Text Label 8375 3550 0    50   ~ 0
+V_Bias_LNA_Y
+Text Label 8375 3675 0    50   ~ 0
+Regu_VDD_Y
+Text Label 10625 3575 0    50   ~ 0
+CAL_In_Y
+Text Label 10625 3700 0    50   ~ 0
+CAL_Gain_Y
+Text Label 8375 3800 0    50   ~ 0
+CAL_Out_Y
+Text Label 8375 3925 0    50   ~ 0
+Gain_Out2_P_Y
+Text Label 8375 4050 0    50   ~ 0
+Gain_Out2_N_Y
+Text Label 8375 4175 0    50   ~ 0
+Out2_NInv_Y
+Text Label 8375 4300 0    50   ~ 0
+Out2_inv_Y
+Text Label 8375 2925 0    50   ~ 0
++6V_B
+Text HLabel 8375 4875 0    50   Input ~ 0
++6V_C
+Text Label 8375 5000 0    50   ~ 0
+VDD_Z
+Text Label 8375 5125 0    50   ~ 0
+M_Z
+Text Label 10625 5275 0    50   ~ 0
+In2N_Z
+Text Label 10625 5400 0    50   ~ 0
+In2P_Z
+Text Label 8375 5250 0    50   ~ 0
+Out1_Z
+Text Label 10625 5025 0    50   ~ 0
+In1N_Z
+Text Label 10625 5150 0    50   ~ 0
+In1P_Z
+Text Label 8375 5375 0    50   ~ 0
+Regu_Bias_LNA_Z
+Text Label 8375 5500 0    50   ~ 0
+V_Bias_LNA_Z
+Text Label 8375 5625 0    50   ~ 0
+Regu_VDD_Z
+Text Label 10625 5525 0    50   ~ 0
+CAL_In_Z
+Text Label 10625 5650 0    50   ~ 0
+CAL_Gain_Z
+Text Label 8375 5750 0    50   ~ 0
+CAL_Out_Z
+Text Label 8375 5875 0    50   ~ 0
+Gain_Out2_P_Z
+Text Label 8375 6000 0    50   ~ 0
+Gain_Out2_N_Z
+Text Label 8375 6125 0    50   ~ 0
+Out2_NInv_Z
+Text Label 8375 6250 0    50   ~ 0
+Out2_inv_Z
+Text Label 8375 4875 0    50   ~ 0
++6V_C
+Text Label 4575 4200 0    50   ~ 0
++6V_B
+Text Label 4575 4300 0    50   ~ 0
++6V_C
+Wire Wire Line
+	9100 800  8375 800 
+Wire Wire Line
+	9100 925  8375 925 
+Wire Wire Line
+	9100 1050 8375 1050
+Wire Wire Line
+	9100 1175 8375 1175
+Wire Wire Line
+	9100 1300 8375 1300
+Wire Wire Line
+	9100 1425 8375 1425
+Wire Wire Line
+	9100 1550 8375 1550
+Wire Wire Line
+	9100 1675 8375 1675
+Wire Wire Line
+	9100 1800 8375 1800
+Wire Wire Line
+	9100 1925 8375 1925
+Wire Wire Line
+	9100 2050 8375 2050
+Wire Wire Line
+	9100 2175 8375 2175
+Wire Wire Line
+	10475 950  10625 950 
+Wire Wire Line
+	10475 1075 10625 1075
+Wire Wire Line
+	10475 1200 10625 1200
+Wire Wire Line
+	10475 1325 10625 1325
+Wire Wire Line
+	10475 1450 10625 1450
+Wire Wire Line
+	10475 1575 10625 1575
+Wire Wire Line
+	10475 1925 10625 1925
+Wire Wire Line
+	10475 2050 10625 2050
+Wire Wire Line
+	10475 2175 10625 2175
+Wire Wire Line
+	9100 2925 8375 2925
+Wire Wire Line
+	9100 3050 8375 3050
+Wire Wire Line
+	9100 3175 8375 3175
+Wire Wire Line
+	9100 3300 8375 3300
+Wire Wire Line
+	9100 3425 8375 3425
+Wire Wire Line
+	9100 3550 8375 3550
+Wire Wire Line
+	9100 3675 8375 3675
+Wire Wire Line
+	9100 3800 8375 3800
+Wire Wire Line
+	9100 3925 8375 3925
+Wire Wire Line
+	9100 4175 8375 4175
+Wire Wire Line
+	9100 4300 8375 4300
+Wire Wire Line
+	10475 3075 10625 3075
+Wire Wire Line
+	10625 3200 10475 3200
+Wire Wire Line
+	10475 3325 10625 3325
+Wire Wire Line
+	10625 3450 10475 3450
+Wire Wire Line
+	10475 3575 10625 3575
+Wire Wire Line
+	10625 3700 10475 3700
+Wire Wire Line
+	10475 3975 10625 3975
+Wire Wire Line
+	10475 4100 10625 4100
+Wire Wire Line
+	10475 4225 10625 4225
+Wire Wire Line
+	9100 4875 8375 4875
+Wire Wire Line
+	9100 5000 8375 5000
+Wire Wire Line
+	9100 5125 8375 5125
+Wire Wire Line
+	9100 5250 8375 5250
+Wire Wire Line
+	9100 5375 8375 5375
+Wire Wire Line
+	9100 5500 8375 5500
+Wire Wire Line
+	9100 5625 8375 5625
+Wire Wire Line
+	9100 5750 8375 5750
+Wire Wire Line
+	9100 5875 8375 5875
+Wire Wire Line
+	9100 6125 8375 6125
+Wire Wire Line
+	9100 6250 8375 6250
+Wire Wire Line
+	8375 6000 9100 6000
+Wire Wire Line
+	10475 5025 10625 5025
+Wire Wire Line
+	10625 5150 10475 5150
+Wire Wire Line
+	10475 5275 10625 5275
+Wire Wire Line
+	10625 5400 10475 5400
+Wire Wire Line
+	10475 5525 10625 5525
+Wire Wire Line
+	10625 5650 10475 5650
+Wire Wire Line
+	10475 5925 10625 5925
+Wire Wire Line
+	10475 6050 10625 6050
+Wire Wire Line
+	10475 6175 10625 6175
+Text Label 10625 1925 0    50   ~ 0
+Sx
+Text Label 10625 2050 0    50   ~ 0
+RTNx
+Text Label 10625 2175 0    50   ~ 0
+CAL
+Text Label 10625 3975 0    50   ~ 0
+Sy
+Text Label 10625 4100 0    50   ~ 0
+RTNy
+Text Label 10625 4225 0    50   ~ 0
+CAL
+Text Label 10625 5925 0    50   ~ 0
+Sz
+Text Label 10625 6050 0    50   ~ 0
+RTNz
+Text Label 10625 6175 0    50   ~ 0
+CAL
+Wire Wire Line
+	6600 1125 6600 1325
+$Comp
+L Device:R R101
+U 1 1 5DBF339D
+P 6600 1475
+AR Path="/5D4C7E56/5DBF339D" Ref="R101"  Part="1" 
+AR Path="/5D4DDD58/5DBF339D" Ref="R201"  Part="1" 
+AR Path="/5D4DE278/5DBF339D" Ref="R301"  Part="1" 
+AR Path="/5D4DE28E/5DBF339D" Ref="R401"  Part="1" 
+AR Path="/5D4DF33C/5DBF339D" Ref="R501"  Part="1" 
+AR Path="/5D4DF368/5DBF339D" Ref="R601"  Part="1" 
+AR Path="/5D4DF37E/5DBF339D" Ref="R701"  Part="1" 
+AR Path="/5D4DF352/5DBF339D" Ref="R801"  Part="1" 
+F 0 "R101" H 6670 1521 50  0000 L CNN
+F 1 "10k" H 6670 1430 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6530 1475 50  0001 C CNN
+F 3 "~" H 6600 1475 50  0001 C CNN
+	1    6600 1475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 1625 6600 1825
+Text Label 6600 1125 0    50   ~ 0
+CAL
+$Comp
+L power:GND #PWR0191
+U 1 1 5DC01850
+P 6600 1825
+AR Path="/5D4C7E56/5DC01850" Ref="#PWR0191"  Part="1" 
+AR Path="/5D4DDD58/5DC01850" Ref="#PWR0213"  Part="1" 
+AR Path="/5D4DE278/5DC01850" Ref="#PWR0235"  Part="1" 
+AR Path="/5D4DE28E/5DC01850" Ref="#PWR0257"  Part="1" 
+AR Path="/5D4DF33C/5DC01850" Ref="#PWR0279"  Part="1" 
+AR Path="/5D4DF368/5DC01850" Ref="#PWR0301"  Part="1" 
+AR Path="/5D4DF37E/5DC01850" Ref="#PWR0323"  Part="1" 
+AR Path="/5D4DF352/5DC01850" Ref="#PWR0345"  Part="1" 
+F 0 "#PWR0345" H 6600 1575 50  0001 C CNN
+F 1 "GND" H 6605 1652 50  0000 C CNN
+F 2 "" H 6600 1825 50  0001 C CNN
+F 3 "" H 6600 1825 50  0001 C CNN
+	1    6600 1825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 4050 8375 4050
+Wire Wire Line
+	10475 1700 10625 1700
+Wire Wire Line
+	10475 825  10625 825 
+Text Label 10625 1700 0    50   ~ 0
+CR_X
+Text Label 10625 825  0    50   ~ 0
+B_X
+Wire Wire Line
+	10475 3825 10625 3825
+Wire Wire Line
+	10475 2950 10625 2950
+Text Label 10625 3825 0    50   ~ 0
+CR_Y
+Text Label 10625 2950 0    50   ~ 0
+B_Y
+$Sheet
+S 9100 675  1375 1675
+U 5D5EAAA6
+F0 "ChannelX" 50
+F1 "Channels.sch" 50
+F2 "+6V" I L 9100 800 50 
+F3 "VDD" I L 9100 925 50 
+F4 "M" I L 9100 1050 50 
+F5 "Out1" I L 9100 1175 50 
+F6 "Regu_VDD" I L 9100 1550 50 
+F7 "CAL_Out" I L 9100 1675 50 
+F8 "Gain_Out2_P" I L 9100 1800 50 
+F9 "Gain_Out2_N" I L 9100 1925 50 
+F10 "In2P" I R 10475 1325 50 
+F11 "In1N" I R 10475 950 50 
+F12 "In1P" I R 10475 1075 50 
+F13 "CAL_In" I R 10475 1450 50 
+F14 "CAL_Gain" I R 10475 1575 50 
+F15 "CAL" I R 10475 2175 50 
+F16 "Out2_inv" I L 9100 2175 50 
+F17 "Out2_NInv" I L 9100 2050 50 
+F18 "S" I R 10475 1925 50 
+F19 "RTN" I R 10475 2050 50 
+F20 "Regu_Bias_LNA" I L 9100 1300 50 
+F21 "V_Bias_LNA" I L 9100 1425 50 
+F22 "In2N" I R 10475 1200 50 
+F23 "CR" I R 10475 1700 50 
+F24 "B" I R 10475 825 50 
+$EndSheet
+Wire Wire Line
+	10475 5775 10625 5775
+Text Label 10625 5775 0    50   ~ 0
+CR_Z
+Wire Wire Line
+	10475 4900 10625 4900
+Text Label 10625 4900 0    50   ~ 0
+B_Z
+$EndSCHEMATC

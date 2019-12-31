@@ -1292,7 +1292,7 @@ U 1 1 5E21954D
 P 13875 2100
 F 0 "JGSE0" H 13750 3500 50  0000 L CNN
 F 1 "DB25_Male_MountingHoles" H 14055 2011 50  0001 L CNN
-F 2 "LibPersoNadj:DCCM25PCBRPN" H 13875 2100 50  0001 C CNN
+F 2 "Connector_Dsub:DSUB-25_Male_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm" H 13875 2100 50  0001 C CNN
 F 3 " ~" H 13875 2100 50  0001 C CNN
 	1    13875 2100
 	1    0    0    -1  
@@ -1303,7 +1303,7 @@ U 1 1 5E21F519
 P 13900 5325
 F 0 "JMatrice0" H 13725 6725 50  0000 L CNN
 F 1 "DB25_Male_MountingHoles" H 14080 5236 50  0001 L CNN
-F 2 "LibPersoNadj:DCCM25PCBRPN" H 13900 5325 50  0001 C CNN
+F 2 "Connector_Dsub:DSUB-25_Male_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm" H 13900 5325 50  0001 C CNN
 F 3 " ~" H 13900 5325 50  0001 C CNN
 	1    13900 5325
 	1    0    0    -1  
@@ -1573,7 +1573,7 @@ U 1 1 5F2F5FD3
 P 8550 2025
 F 0 "SW7" H 8550 2710 50  0000 C CNN
 F 1 "SW_3PDT" H 8550 2619 50  0000 C CNN
-F 2 "LibPersoNadj:Switch_DP3T_Slide_MHS233K" H 8550 2425 50  0001 C CNN
+F 2 "LibPersoNadj:SW_3PDT_M2032TNW01_NKK" H 8550 2425 50  0001 C CNN
 F 3 "~" H 8550 2425 50  0001 C CNN
 	1    8550 2025
 	-1   0    0    -1  
@@ -1918,7 +1918,7 @@ Wire Wire Line
 Wire Wire Line
 	13800 9400 13450 9400
 Text Label 13450 9200 2    50   ~ 0
-Source+6V_B
+Source+6V_C
 Text Label 15125 9300 0    50   ~ 0
 +6V_B
 Text Label 13450 9400 2    50   ~ 0
@@ -2069,8 +2069,8 @@ Wire Wire Line
 Text Label 7100 9900 0    50   ~ 0
 +12v
 Wire Wire Line
-	13575 1600 13350 1600
-Text Label 13350 1600 2    50   ~ 0
+	8750 8775 8525 8775
+Text Label 8525 8775 2    50   ~ 0
 +12v
 Wire Wire Line
 	5900 10175 5550 10175
@@ -2099,4 +2099,28 @@ Wire Wire Line
 Connection ~ 6525 10575
 Wire Wire Line
 	6525 10575 6900 10575
+$Comp
+L Connector:Conn_Coaxial J12v0
+U 1 1 5E2F4810
+P 8950 8775
+F 0 "J12v0" H 9050 8750 50  0000 L CNN
+F 1 "Conn_Coaxial" H 9050 8659 50  0000 L CNN
+F 2 "Connector_Coaxial:SMB_Jack_Vertical" H 8950 8775 50  0001 C CNN
+F 3 " ~" H 8950 8775 50  0001 C CNN
+	1    8950 8775
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5E3490FC
+P 8950 9025
+F 0 "#PWR0102" H 8950 8775 50  0001 C CNN
+F 1 "GND" H 8955 8852 50  0000 C CNN
+F 2 "" H 8950 9025 50  0001 C CNN
+F 3 "" H 8950 9025 50  0001 C CNN
+	1    8950 9025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8950 9025 8950 8975
 $EndSCHEMATC

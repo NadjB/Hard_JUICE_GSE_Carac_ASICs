@@ -423,6 +423,8 @@ $Comp
 L LibPersoNadj:SW_6P3T_Slide6x3 SW_Channels_0
 U 1 1 5E153517
 P 9775 5225
+AR Path="/5E153517" Ref="SW_Channels_0"  Part="1" 
+AR Path="/5D6520CE/5E153517" Ref="SW_Channels_0"  Part="1" 
 F 0 "SW_Channels_0" H 9825 6515 50  0000 C CNN
 F 1 "SW_6P3T_Slide6x3" H 9825 6424 50  0000 C CNN
 F 2 "LibPersoNadj:SW_6P3T_MSS6350R04_TE" H 9675 6525 50  0001 C CNN

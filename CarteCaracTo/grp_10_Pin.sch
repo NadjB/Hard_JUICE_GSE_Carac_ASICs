@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 71 123
+Sheet 48 123
 Title ""
 Date ""
 Rev ""
@@ -87,7 +87,7 @@ AR Path="/6133F774/5E6A9E8D" Ref="J11"  Part="1"
 AR Path="/614B0FD3/5E6A9E8D" Ref="J21"  Part="1" 
 AR Path="/61533310/5E6A9E8D" Ref="J31"  Part="1" 
 AR Path="/615B5DD5/5E6A9E8D" Ref="J41"  Part="1" 
-F 0 "J11" H 2850 3392 50  0000 C CNN
+F 0 "J1" H 2850 3392 50  0000 C CNN
 F 1 "Conn_02x10_Counter_Clockwise" H 2850 3301 50  0000 C CNN
 F 2 "Button_Switch_THT:SW_DIP_SPSTx10_Slide_9.78x27.58mm_W7.62mm_P2.54mm" H 2800 2775 50  0001 C CNN
 F 3 "~" H 2800 2775 50  0001 C CNN
