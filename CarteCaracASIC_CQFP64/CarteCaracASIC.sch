@@ -331,7 +331,7 @@ VDD_Y
 Text Label 5550 3925 0    50   ~ 0
 VDD_X
 Wire Wire Line
-	3700 2400 3425 2400
+	3700 2700 3425 2700
 Wire Wire Line
 	3700 2800 3425 2800
 Wire Wire Line
@@ -604,7 +604,7 @@ Wire Wire Line
 Connection ~ 2375 6900
 Wire Wire Line
 	2375 6900 2550 6900
-NoConn ~ 3425 2400
+NoConn ~ 3425 2700
 NoConn ~ 3425 2800
 NoConn ~ 3425 2900
 NoConn ~ 3425 3000
@@ -644,18 +644,18 @@ Text Label 5300 5000 0    50   ~ 0
 TP_Pot_2
 Text Label 5300 4875 0    50   ~ 0
 TP_Pot_1
-Text Label 3025 2700 0    50   ~ 0
-In2P_Z
 Text Label 3025 2600 0    50   ~ 0
-In2P_Y
+In2P_Z
 Text Label 3025 2500 0    50   ~ 0
+In2P_Y
+Text Label 3025 2400 0    50   ~ 0
 In2P_X
+Wire Wire Line
+	3025 2400 3700 2400
 Wire Wire Line
 	3025 2500 3700 2500
 Wire Wire Line
 	3025 2600 3700 2600
-Wire Wire Line
-	3025 2700 3700 2700
 Text Label 9400 4650 0    50   ~ 0
 TP_Pot_1
 Text Label 9875 4650 0    50   ~ 0
