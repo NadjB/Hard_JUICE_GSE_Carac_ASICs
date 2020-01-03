@@ -331,18 +331,6 @@ VDD_Y
 Text Label 5550 3925 0    50   ~ 0
 VDD_X
 Wire Wire Line
-	3700 2700 3425 2700
-Wire Wire Line
-	3700 2800 3425 2800
-Wire Wire Line
-	3700 2900 3425 2900
-Wire Wire Line
-	3700 3000 3425 3000
-Wire Wire Line
-	3700 3100 3425 3100
-Wire Wire Line
-	3700 3200 3425 3200
-Wire Wire Line
 	3700 3300 3425 3300
 Text Label 3025 1400 0    50   ~ 0
 CR_Z
@@ -604,13 +592,6 @@ Wire Wire Line
 Connection ~ 2375 6900
 Wire Wire Line
 	2375 6900 2550 6900
-NoConn ~ 3425 2700
-NoConn ~ 3425 2800
-NoConn ~ 3425 2900
-NoConn ~ 3425 3000
-NoConn ~ 3425 3100
-NoConn ~ 3425 3200
-NoConn ~ 3425 3300
 $Comp
 L power:GND #PWR0104
 U 1 1 5E352060
@@ -660,4 +641,29 @@ Text Label 9400 4650 0    50   ~ 0
 TP_Pot_1
 Text Label 9875 4650 0    50   ~ 0
 TP_Pot_2
+Text Label 3025 2700 0    50   ~ 0
+V_BIAS_LNA_X
+Text Label 3025 2900 0    50   ~ 0
+V_BIAS_LNA_Z
+Text Label 3025 2800 0    50   ~ 0
+V_BIAS_LNA_Y
+Text Label 3025 3200 0    50   ~ 0
+VDD_Z
+Text Label 3025 3100 0    50   ~ 0
+VDD_Y
+Text Label 3025 3000 0    50   ~ 0
+VDD_X
+Wire Wire Line
+	3025 2700 3700 2700
+Wire Wire Line
+	3025 2800 3700 2800
+Wire Wire Line
+	3025 2900 3700 2900
+Wire Wire Line
+	3025 3000 3700 3000
+Wire Wire Line
+	3025 3100 3700 3100
+Wire Wire Line
+	3025 3200 3700 3200
+NoConn ~ 3425 3300
 $EndSCHEMATC
