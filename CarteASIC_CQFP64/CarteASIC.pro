@@ -1,4 +1,4 @@
-update=jeu. 05 déc. 2019 16:10:35 CET
+update=lun. 06 janv. 2020 14:01:53 CET
 version=1
 last_client=kicad
 [general]
@@ -232,7 +232,7 @@ Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
-Clearance=0.15
+Clearance=0.3
 TrackWidth=0.2
 ViaDiameter=0.8
 ViaDrill=0.4
@@ -269,7 +269,7 @@ PageLayoutDescrFile=/home/ba/KiCad/Cartouche/CartoucheJUICE.kicad_wks
 PlotDirectoryName=PDF
 SubpartIdSeparator=0
 SubpartFirstId=65
-NetFmtName=
+NetFmtName=Pcbnew
 SpiceAjustPassiveValues=0
 LabSize=50
 ERC_TestSimilarLabels=1
