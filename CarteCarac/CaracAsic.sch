@@ -77,7 +77,7 @@ F13 "-R32" I R 2900 4175 50
 F14 "+R34" I R 2900 3775 50 
 F15 "-R34" I R 2900 3875 50 
 $EndSheet
-Text Label 9050 2325 2    50   ~ 0
+Text Label 8525 2325 0    50   ~ 0
 Pot_Offset_1
 Wire Wire Line
 	6075 3700 5375 3700
@@ -145,15 +145,15 @@ Wire Wire Line
 	9175 2325 8525 2325
 Wire Wire Line
 	9175 2725 8525 2725
-Text Label 9050 2425 2    50   ~ 0
+Text Label 8525 2425 0    50   ~ 0
 Pot_VDD_1
-Text Label 9050 2525 2    50   ~ 0
+Text Label 8525 2525 0    50   ~ 0
 Pot_Bias_1
-Text Label 9050 2725 2    50   ~ 0
+Text Label 8525 2725 0    50   ~ 0
 Pot_Offset_2
-Text Label 9050 2825 2    50   ~ 0
+Text Label 8525 2825 0    50   ~ 0
 Pot_VDD_2
-Text Label 9050 2925 2    50   ~ 0
+Text Label 8525 2925 0    50   ~ 0
 Pot_Bias_2
 Text Label 7100 1600 0    50   ~ 0
 Pot_Offset_1

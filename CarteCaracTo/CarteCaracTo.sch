@@ -113,7 +113,7 @@ U 1 1 5E0A5A0C
 P 1400 2975
 F 0 "J50" H 1850 3240 50  0000 C CNN
 F 1 "Sub-D50_F" H 1850 3149 50  0000 C CNN
-F 2 "LibPersoNadj:DD50S564TLF" H 2150 3075 50  0001 L CNN
+F 2 "LibPersoNadj:db_50f_DD50S564TLF" H 2150 3075 50  0001 L CNN
 F 3 "http://docs-emea.rs-online.com/webdocs/0e52/0900766b80e52c42.pdf" H 2150 2975 50  0001 L CNN
 F 4 "Amphenol FCI D Series, 50 Way Right Angle Through Hole Mount PCB D-sub Connector Socket, 2.76mm Pitch" H 2150 2875 50  0001 L CNN "Description"
 F 5 "FCI" H 2150 2675 50  0001 L CNN "Manufacturer_Name"
@@ -896,15 +896,15 @@ Wire Wire Line
 	6875 10325 6750 10325
 Text Label 6175 10325 0    50   ~ 0
 Spectro1_Out
-Text Label 12425 6525 0    50   ~ 0
+Text Label 12425 4325 0    50   ~ 0
 B_X
-Text Label 12425 6125 0    50   ~ 0
+Text Label 12425 4525 0    50   ~ 0
 B_Y
-Text Label 12425 5725 0    50   ~ 0
+Text Label 12425 4725 0    50   ~ 0
 B_Z
 Wire Wire Line
-	13600 5825 12850 5825
-Text Label 12850 5825 0    50   ~ 0
+	13600 5925 12850 5925
+Text Label 12850 5925 0    50   ~ 0
 Spectro1ToMatrice
 $Comp
 L Connector:Conn_Coaxial J3
@@ -942,12 +942,12 @@ F 3 "~" H 7150 2850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	13600 5425 12850 5425
-Text Label 12850 5425 0    50   ~ 0
+	13600 6125 12850 6125
+Text Label 12850 6125 0    50   ~ 0
 Spectro2ToMatrice
 Wire Wire Line
-	13600 5025 12850 5025
-Text Label 12850 5025 0    50   ~ 0
+	13600 6325 12850 6325
+Text Label 12850 6325 0    50   ~ 0
 Spectro3ToMatrice
 Wire Wire Line
 	6175 1100 6950 1100
@@ -1186,16 +1186,16 @@ B_Z
 Text Label 3150 1125 0    50   ~ 0
 B_Y
 Wire Wire Line
-	13600 5625 12850 5625
-Text Label 12850 5625 0    50   ~ 0
+	13600 5825 12850 5825
+Text Label 12850 5825 0    50   ~ 0
 MatriceToSpectro1
 Wire Wire Line
-	13600 5225 12850 5225
-Text Label 12850 5225 0    50   ~ 0
+	13600 6025 12850 6025
+Text Label 12850 6025 0    50   ~ 0
 MatriceToSpectro2
 Wire Wire Line
-	13600 4825 12850 4825
-Text Label 12850 4825 0    50   ~ 0
+	13600 6225 12850 6225
+Text Label 12850 6225 0    50   ~ 0
 MatriceToSpectro3
 $Comp
 L Connector:Conn_Coaxial J7
@@ -1238,18 +1238,18 @@ Text Label 700  4375 0    50   ~ 0
 Sz
 Wire Wire Line
 	700  4375 1400 4375
-Text Label 625  3175 0    50   ~ 0
+Text Label 700  3175 0    50   ~ 0
 B_Z
-Text Label 625  3075 0    50   ~ 0
+Text Label 700  3075 0    50   ~ 0
 B_Y
-Text Label 625  2975 0    50   ~ 0
+Text Label 700  2975 0    50   ~ 0
 B_X
 Wire Wire Line
-	550  2975 1400 2975
+	700  2975 1400 2975
 Wire Wire Line
-	550  3175 1400 3175
+	700  3175 1400 3175
 Wire Wire Line
-	550  3075 1400 3075
+	700  3075 1400 3075
 Text Label 700  4975 0    50   ~ 0
 RTNy
 Wire Wire Line
@@ -1450,7 +1450,7 @@ Text Label 5075 8125 2    50   ~ 0
 Wire Wire Line
 	2525 10325 2175 10325
 Wire Wire Line
-	2175 10325 2175 10725
+	2175 10325 2175 10775
 Wire Wire Line
 	2525 10525 2400 10525
 Wire Wire Line
@@ -1460,20 +1460,10 @@ Wire Wire Line
 Wire Wire Line
 	3150 10425 3150 10725
 Wire Wire Line
-	2175 10725 2400 10725
-Wire Wire Line
-	3525 10725 3525 10775
-Wire Wire Line
-	3525 10775 3625 10775
-Connection ~ 2400 10725
-Wire Wire Line
 	2400 10725 3150 10725
 Connection ~ 3625 10775
 Wire Wire Line
 	3625 10775 3625 10725
-Connection ~ 3150 10725
-Wire Wire Line
-	3150 10725 3525 10725
 $Comp
 L Connector:Conn_Coaxial J12v0
 U 1 1 5E2F4810
@@ -2084,50 +2074,44 @@ Wire Wire Line
 	13575 2100 13025 2100
 Wire Wire Line
 	13575 3300 13025 3300
-Text Label 1000 3275 2    50   ~ 0
+Text Label 700  3275 0    50   ~ 0
 Temp_Mon_A
 Text Label 625  3675 0    50   ~ 0
 Chassis
 Text Label 700  3775 0    50   ~ 0
 In2P_Y
-Text Label 675  4575 0    50   ~ 0
+Text Label 700  4575 0    50   ~ 0
 PWR_Shield_A
-Text Label 675  4775 0    50   ~ 0
-CAL
-Text Label 675  5375 0    50   ~ 0
+Text Label 700  5375 0    50   ~ 0
 RTN_C
-Text Label 625  3375 0    50   ~ 0
+Text Label 700  3375 0    50   ~ 0
 M_X
-Text Label 625  3475 0    50   ~ 0
+Text Label 700  3475 0    50   ~ 0
 M_Y
-Text Label 625  3575 0    50   ~ 0
+Text Label 700  3575 0    50   ~ 0
 M_Z
 Wire Wire Line
-	550  3275 1400 3275
+	700  3275 1400 3275
 Wire Wire Line
-	550  3375 1400 3375
+	700  3375 1400 3375
 Wire Wire Line
-	550  3475 1400 3475
+	700  3475 1400 3475
 Wire Wire Line
-	550  3575 1400 3575
-Text Label 675  4475 0    50   ~ 0
+	700  3575 1400 3575
+Text Label 700  4475 0    50   ~ 0
 RTN_Mon_A
-Text Label 675  4675 0    50   ~ 0
+Text Label 700  4675 0    50   ~ 0
 RTN_B
-Text Label 675  4875 0    50   ~ 0
-XShield
-Text Label 675  5075 0    50   ~ 0
+Text Label 700  5075 0    50   ~ 0
 Temp_Mon_A
-Text Label 675  5275 0    50   ~ 0
+Text Label 700  5275 0    50   ~ 0
 PWR_Shield_B
 Wire Wire Line
-	625  3775 1400 3775
+	700  3775 1400 3775
 Wire Wire Line
-	675  4775 1400 4775
+	700  4475 1400 4475
 Wire Wire Line
-	675  4475 1400 4475
-Wire Wire Line
-	675  5075 1400 5075
+	700  5075 1400 5075
 Text Label 13025 2900 0    50   ~ 0
 M_X
 Text Label 13025 2300 0    50   ~ 0
@@ -2150,8 +2134,6 @@ Text Label 700  3975 0    50   ~ 0
 V_BIAS_LNA_Z
 Wire Wire Line
 	700  3975 1400 3975
-Wire Wire Line
-	575  3675 575  4575
 Wire Wire Line
 	575  5375 1400 5375
 Wire Wire Line
@@ -2221,16 +2203,11 @@ Text Label 13025 3000 0    50   ~ 0
 VDD_Y
 Text Label 13025 3200 0    50   ~ 0
 VDD_X
-Wire Wire Line
-	13575 2000 12925 2000
-Wire Wire Line
-	12925 2000 12925 1800
 Connection ~ 12925 900 
 Wire Wire Line
 	12925 900  13575 900 
 Wire Wire Line
 	13575 1800 12925 1800
-Connection ~ 12925 1800
 Wire Wire Line
 	12925 1800 12925 1600
 Wire Wire Line
@@ -2387,44 +2364,44 @@ Wire Wire Line
 	5775 1600 5500 1600
 Wire Wire Line
 	5775 1200 5500 1200
-Text Label 12425 4325 0    50   ~ 0
+Text Label 12425 5225 0    50   ~ 0
 RTNz
-Text Label 12425 4725 0    50   ~ 0
+Text Label 12425 5025 0    50   ~ 0
 RTNy
-Text Label 12425 5125 0    50   ~ 0
+Text Label 12425 4825 0    50   ~ 0
 RTNx
-Text Label 12425 5525 0    50   ~ 0
+Text Label 12425 4625 0    50   ~ 0
 Sz
-Text Label 12425 5925 0    50   ~ 0
+Text Label 12425 4425 0    50   ~ 0
 Sy
-Text Label 12425 6325 0    50   ~ 0
+Text Label 12425 4225 0    50   ~ 0
 Sx
 Wire Wire Line
-	13600 6525 12425 6525
+	13600 4325 12425 4325
 Wire Wire Line
-	13600 6125 12425 6125
-Wire Wire Line
-	13600 5725 12425 5725
-Wire Wire Line
-	13600 5325 11900 5325
-Wire Wire Line
-	13600 4925 11900 4925
-Wire Wire Line
-	13600 4525 11900 4525
-Wire Wire Line
-	13600 4125 11900 4125
-Wire Wire Line
-	13600 6325 12425 6325
-Wire Wire Line
-	13600 5925 12425 5925
-Wire Wire Line
-	13600 5525 12425 5525
-Wire Wire Line
-	13600 5125 12425 5125
+	13600 4525 12425 4525
 Wire Wire Line
 	13600 4725 12425 4725
 Wire Wire Line
-	13600 4325 12425 4325
+	13600 5625 11900 5625
+Wire Wire Line
+	13600 5425 11900 5425
+Wire Wire Line
+	13600 6425 11900 6425
+Wire Wire Line
+	13600 4125 11900 4125
+Wire Wire Line
+	13600 4225 12425 4225
+Wire Wire Line
+	13600 4425 12425 4425
+Wire Wire Line
+	13600 4625 12425 4625
+Wire Wire Line
+	13600 4825 12425 4825
+Wire Wire Line
+	13600 5025 12425 5025
+Wire Wire Line
+	13600 5225 12425 5225
 $Comp
 L power:PWR_FLAG #FLG0103
 U 1 1 665AB43E
@@ -2437,31 +2414,29 @@ F 3 "~" H 5150 8125 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	13600 6225 11900 6225
+	13600 5525 11900 5525
 Wire Wire Line
-	13600 6025 11900 6025
+	13600 5325 11900 5325
 Wire Wire Line
-	13600 6425 11900 6425
+	13600 5725 11900 5725
 Wire Wire Line
-	13600 4425 11900 4425
+	13600 5125 11900 5125
 Wire Wire Line
-	13600 4225 11900 4225
+	13600 4925 11900 4925
 Wire Wire Line
-	13600 4625 11900 4625
+	13600 6525 11900 6525
 NoConn ~ 11900 4125
-NoConn ~ 11900 4225
-NoConn ~ 11900 4425
-NoConn ~ 11900 4525
-NoConn ~ 11900 4625
 NoConn ~ 11900 4925
-NoConn ~ 11900 5325
-NoConn ~ 11900 6025
-NoConn ~ 11900 6225
+NoConn ~ 11900 5125
 NoConn ~ 11900 6425
+NoConn ~ 11900 6525
+NoConn ~ 11900 5425
+NoConn ~ 11900 5625
+NoConn ~ 11900 5325
+NoConn ~ 11900 5525
+NoConn ~ 11900 5725
 Wire Wire Line
 	1400 4075 700  4075
-Wire Wire Line
-	1400 4175 1225 4175
 Text Label 2350 3975 0    50   ~ 0
 22
 Text Label 2350 4075 0    50   ~ 0
@@ -2475,21 +2450,9 @@ VDD_Z
 Text Label 2525 3975 0    50   ~ 0
 VDD_X
 Wire Wire Line
-	2300 4075 2750 4075
+	2300 4475 2975 4475
 Wire Wire Line
-	2300 3975 2750 3975
-Wire Wire Line
-	2300 3875 2750 3875
-Text Label 2525 3875 0    50   ~ 0
-V_BIAS_LNA_Y
-Wire Wire Line
-	2300 4475 2750 4475
-Wire Wire Line
-	2300 5075 2750 5075
-Wire Wire Line
-	2300 3675 2750 3675
-Wire Wire Line
-	2300 3775 2750 3775
+	2300 5075 2975 5075
 Text Label 2525 5075 0    50   ~ 0
 Temp_Mon_B
 Text Label 2525 4675 0    50   ~ 0
@@ -2579,23 +2542,21 @@ Wire Wire Line
 Wire Wire Line
 	3125 3375 3125 3475
 Wire Wire Line
-	2300 5275 2725 5275
+	2300 5275 2975 5275
 Wire Wire Line
-	2300 4575 2725 4575
+	2300 4575 2975 4575
 Text Label 2525 4575 0    50   ~ 0
 +6V_B
 Text Label 2525 5275 0    50   ~ 0
 +6V_C
 Wire Wire Line
 	2300 4375 2725 4375
-Wire Wire Line
-	2300 4175 2725 4175
 Text Label 2725 4175 2    50   ~ 0
 RTNx
 Text Label 2725 4375 2    50   ~ 0
 RTNz
 Wire Wire Line
-	2300 4875 2750 4875
+	2300 4875 2975 4875
 Text Label 2525 4875 0    50   ~ 0
 Sy
 $Comp
@@ -2648,4 +2609,48 @@ F 3 "~" H 11000 10900 50  0001 C CNN
 	1    11000 10900
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	700  4775 1400 4775
+Text Label 700  4875 0    50   ~ 0
+XShield
+Text Label 700  4775 0    50   ~ 0
+CAL
+Wire Wire Line
+	2300 4175 2975 4175
+Wire Wire Line
+	2300 3775 2975 3775
+Wire Wire Line
+	2300 3675 2975 3675
+Text Label 2525 3875 0    50   ~ 0
+V_BIAS_LNA_Y
+Wire Wire Line
+	2300 3875 2975 3875
+Wire Wire Line
+	2300 3975 2975 3975
+Wire Wire Line
+	2300 4075 2975 4075
+Wire Wire Line
+	1400 4175 575  4175
+Wire Wire Line
+	575  3675 575  4175
+Wire Wire Line
+	575  4175 575  4575
+Connection ~ 575  4175
+Wire Wire Line
+	2175 10775 3625 10775
+Wire Wire Line
+	13575 2000 12925 2000
+NoConn ~ 12925 2000
+Text GLabel 12425 5225 0    50   Input ~ 0
+Sz-
+Text GLabel 12425 5025 0    50   Input ~ 0
+Sy-
+Text GLabel 12425 4825 0    50   Input ~ 0
+Sx-
+Text GLabel 12425 4625 0    50   Input ~ 0
+Sz+
+Text GLabel 12425 4425 0    50   Input ~ 0
+Sy+
+Text GLabel 12425 4225 0    50   Input ~ 0
+Sx+
 $EndSCHEMATC

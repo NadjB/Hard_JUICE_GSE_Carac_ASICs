@@ -1,4 +1,4 @@
-update=Wed Jan  8 15:30:09 2020
+update=ven. 10 janv. 2020 18:59:34 CET
 version=1
 last_client=kicad
 [general]
@@ -28,12 +28,12 @@ MinViaDrill=0.3
 MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
-TrackWidth1=0.5
+TrackWidth1=0.25
 TrackWidth2=0.5
 ViaDiameter1=0.8
 ViaDrill1=0.4
-dPairWidth1=0.2
-dPairGap1=0.25
+dPairWidth1=0.5
+dPairGap1=0.75
 dPairViaGap1=0.25
 SilkLineWidth=0.3
 SilkTextSizeV=2
@@ -228,18 +228,18 @@ Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
-Clearance=0.26
-TrackWidth=0.5
+Clearance=0.25
+TrackWidth=0.25
 ViaDiameter=0.8
 ViaDrill=0.4
 uViaDiameter=0.3
 uViaDrill=0.1
-dPairWidth=0.2
-dPairGap=0.25
+dPairWidth=0.5
+dPairGap=0.75
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=Alim
-Clearance=0.26
+Clearance=0.25
 TrackWidth=0.5
 ViaDiameter=0.8
 ViaDrill=0.4

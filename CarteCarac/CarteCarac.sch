@@ -178,7 +178,7 @@ Wire Wire Line
 Text Label 2900 7525 2    50   ~ 0
 RTN_B
 Wire Wire Line
-	1625 9325 1350 9325
+	1725 9025 1450 9025
 Text Label 1050 7125 0    50   ~ 0
 CR_Z
 Text Label 1050 6925 0    50   ~ 0
@@ -210,12 +210,12 @@ Chassis
 Text Label 1050 7025 0    50   ~ 0
 B_Z
 $Comp
-L Connector_Generic_MountingPin:Conn_02x25_Top_Bottom_MountingPin J1
+L Connector_Generic_MountingPin:Conn_02x25_Top_Bottom_MountingPin J_50m_1
 U 1 1 5E725E95
 P 1925 7825
-F 0 "J1" H 1975 9242 50  0000 C CNN
+F 0 "J_50m_1" H 1975 9242 50  0000 C CNN
 F 1 "Conn_02x25_Top_Bottom_MountingPin" H 1975 9151 50  0000 C CNN
-F 2 "LibPersoNadj:DD50S564TLF" H 1925 7825 50  0001 C CNN
+F 2 "LibPersoNadj:db_50m_MP_DD50S564TXLF" H 1925 7825 50  0001 C CNN
 F 3 "~" H 1925 7825 50  0001 C CNN
 	1    1925 7825
 	1    0    0    -1  
@@ -416,7 +416,7 @@ Wire Wire Line
 Connection ~ 5550 7475
 Wire Wire Line
 	5550 7475 5725 7475
-NoConn ~ 1350 9325
+NoConn ~ 1450 9025
 Wire Wire Line
 	9800 1325 9125 1325
 Wire Wire Line
@@ -663,25 +663,12 @@ F 3 "" H 2175 5025 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG0101
-U 1 1 5E1908E5
-P 2125 4975
-F 0 "#FLG0101" H 2125 5050 50  0001 C CNN
-F 1 "PWR_FLAG" V 2125 5102 50  0000 L CNN
-F 2 "" H 2125 4975 50  0001 C CNN
-F 3 "~" H 2125 4975 50  0001 C CNN
-	1    2125 4975
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	2125 4975 2175 4975
-$Comp
-L Connector_Generic_MountingPin:Conn_02x39_Top_Bottom_MountingPin J2
+L Connector_Generic_MountingPin:Conn_02x39_Top_Bottom_MountingPin J_78f_1
 U 1 1 5E1908EC
 P 2125 2700
-F 0 "J2" H 2175 4817 50  0000 C CNN
+F 0 "J_78f_1" H 2175 4817 50  0000 C CNN
 F 1 "Conn_02x39_Top_Bottom_MountingPin" H 2175 4726 50  0000 C CNN
-F 2 "LibPersoNadj:db_78f_09565527613" H 2125 2700 50  0001 C CNN
+F 2 "LibPersoNadj:db_78f_MP_09565527613" H 2125 2700 50  0001 C CNN
 F 3 "~" H 2125 2700 50  0001 C CNN
 	1    2125 2700
 	1    0    0    -1  
@@ -703,9 +690,6 @@ Text Label 925  3000 0    50   ~ 0
 VDD_Y
 Text Label 925  2900 0    50   ~ 0
 VDD_X
-Wire Wire Line
-	2175 4975 2175 5025
-Connection ~ 2175 4975
 Wire Wire Line
 	3325 3100 3325 4875
 Wire Wire Line
@@ -896,8 +880,6 @@ Wire Wire Line
 	2425 3100 3325 3100
 Connection ~ 2175 4875
 Wire Wire Line
-	2175 4875 2175 4975
-Wire Wire Line
 	9100 2325 9800 2325
 Wire Wire Line
 	9100 1825 9800 1825
@@ -1049,4 +1031,18 @@ Wire Wire Line
 Wire Wire Line
 	6075 7475 6425 7475
 Connection ~ 6075 7475
+Wire Wire Line
+	2175 4875 2175 5025
+Text GLabel 3100 800  2    50   Input ~ 0
+Sy+
+Text GLabel 3100 900  2    50   Input ~ 0
+Sy-
+Text GLabel 925  3600 0    50   Input ~ 0
+Sz+
+Text GLabel 925  3700 0    50   Input ~ 0
+Sz-
+Text GLabel 925  3300 0    50   Input ~ 0
+Sx-
+Text GLabel 925  3400 0    50   Input ~ 0
+Sx+
 $EndSCHEMATC
