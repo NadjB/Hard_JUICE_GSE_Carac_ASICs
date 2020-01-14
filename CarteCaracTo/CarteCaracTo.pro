@@ -1,4 +1,4 @@
-update=ven. 10 janv. 2020 18:59:34 CET
+update=lun. 13 janv. 2020 11:01:40 CET
 version=1
 last_client=kicad
 [general]
@@ -33,7 +33,7 @@ TrackWidth2=0.5
 ViaDiameter1=0.8
 ViaDrill1=0.4
 dPairWidth1=0.5
-dPairGap1=0.75
+dPairGap1=1
 dPairViaGap1=0.25
 SilkLineWidth=0.3
 SilkTextSizeV=2
@@ -235,7 +235,7 @@ ViaDrill=0.4
 uViaDiameter=0.3
 uViaDrill=0.1
 dPairWidth=0.5
-dPairGap=0.75
+dPairGap=1
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=Alim

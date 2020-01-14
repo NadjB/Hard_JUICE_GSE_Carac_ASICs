@@ -90,7 +90,7 @@ Wire Wire Line
 Wire Wire Line
 	2900 4150 3225 4150
 Wire Wire Line
-	2925 4900 3250 4900
+	2900 4900 3225 4900
 Wire Wire Line
 	2900 2300 3225 2300
 Wire Wire Line
@@ -139,7 +139,7 @@ Text HLabel 2900 4150 0    50   Input ~ 0
 7
 Text HLabel 2900 4550 0    50   Input ~ 0
 8
-Text HLabel 2925 4900 0    50   Input ~ 0
+Text HLabel 2900 4900 0    50   Input ~ 0
 9
 Text HLabel 2900 5250 0    50   Input ~ 0
 10
