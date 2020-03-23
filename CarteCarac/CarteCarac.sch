@@ -1,7 +1,7 @@
 EESchema Schematic File Version 4
 EELAYER 30 0
 EELAYER END
-$Descr A3 16535 11693
+$Descr A4 11693 8268
 encoding utf-8
 Sheet 1 5
 Title ""
@@ -28,63 +28,63 @@ Connection ~ 5350 7475
 $Comp
 L power:GND #PWR0103
 U 1 1 5DB2F292
-P 1975 9325
-F 0 "#PWR0103" H 1975 9075 50  0001 C CNN
-F 1 "GND" V 1980 9197 50  0000 R CNN
-F 2 "" H 1975 9325 50  0001 C CNN
-F 3 "" H 1975 9325 50  0001 C CNN
-	1    1975 9325
+P 7000 4450
+F 0 "#PWR0103" H 7000 4200 50  0001 C CNN
+F 1 "GND" V 7005 4322 50  0000 R CNN
+F 2 "" H 7000 4450 50  0001 C CNN
+F 3 "" H 7000 4450 50  0001 C CNN
+	1    7000 4450
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG0102
 U 1 1 5DC90F42
-P 2025 9275
-F 0 "#FLG0102" H 2025 9350 50  0001 C CNN
-F 1 "PWR_FLAG" V 2025 9402 50  0000 L CNN
-F 2 "" H 2025 9275 50  0001 C CNN
-F 3 "~" H 2025 9275 50  0001 C CNN
-	1    2025 9275
+P 7050 4400
+F 0 "#FLG0102" H 7050 4475 50  0001 C CNN
+F 1 "PWR_FLAG" V 7050 4527 50  0000 L CNN
+F 2 "" H 7050 4400 50  0001 C CNN
+F 3 "~" H 7050 4400 50  0001 C CNN
+	1    7050 4400
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1975 9225 1975 9275
+	7000 4350 7000 4400
 Wire Wire Line
-	2025 9275 1975 9275
-Connection ~ 1975 9275
+	7050 4400 7000 4400
+Connection ~ 7000 4400
 Wire Wire Line
-	1975 9275 1975 9325
+	7000 4400 7000 4450
 $Sheet
-S 9800 1225 800  4200
+S 10100 1000 800  4200
 U 5D6520CE
 F0 "CaracAsic" 50
 F1 "CaracAsic.sch" 50
-F2 "TP_Pot_1" I L 9800 1325 50 
-F3 "TP_Pot_2" I L 9800 1425 50 
-F4 "+RX34" I L 9800 1725 50 
-F5 "-RX34" I L 9800 1825 50 
-F6 "+RY34" I L 9800 3025 50 
-F7 "-RY34" I L 9800 3125 50 
-F8 "+RZ34" I L 9800 4325 50 
-F9 "-RZ34" I L 9800 4425 50 
-F10 "+RX32" I L 9800 2025 50 
-F11 "-RX32" I L 9800 2125 50 
-F12 "+RX12" I L 9800 2325 50 
-F13 "-RX12" I L 9800 2425 50 
-F14 "+RX10" I L 9800 2625 50 
-F15 "-RX10" I L 9800 2725 50 
-F16 "+RY32" I L 9800 3325 50 
-F17 "-RY32" I L 9800 3425 50 
-F18 "+RY12" I L 9800 3625 50 
-F19 "-RY12" I L 9800 3725 50 
-F20 "+RY10" I L 9800 3925 50 
-F21 "-RY10" I L 9800 4025 50 
-F22 "+RZ32" I L 9800 4625 50 
-F23 "-RZ32" I L 9800 4725 50 
-F24 "+RZ12" I L 9800 4925 50 
-F25 "-RZ12" I L 9800 5025 50 
-F26 "+RZ10" I L 9800 5225 50 
-F27 "-RZ10" I L 9800 5325 50 
+F2 "TP_Pot_1" I L 10100 1100 50 
+F3 "TP_Pot_2" I L 10100 1200 50 
+F4 "+RX34" I L 10100 1500 50 
+F5 "-RX34" I L 10100 1600 50 
+F6 "+RY34" I L 10100 2800 50 
+F7 "-RY34" I L 10100 2900 50 
+F8 "+RZ34" I L 10100 4100 50 
+F9 "-RZ34" I L 10100 4200 50 
+F10 "+RX32" I L 10100 1800 50 
+F11 "-RX32" I L 10100 1900 50 
+F12 "+RX12" I L 10100 2100 50 
+F13 "-RX12" I L 10100 2200 50 
+F14 "+RX10" I L 10100 2400 50 
+F15 "-RX10" I L 10100 2500 50 
+F16 "+RY32" I L 10100 3100 50 
+F17 "-RY32" I L 10100 3200 50 
+F18 "+RY12" I L 10100 3400 50 
+F19 "-RY12" I L 10100 3500 50 
+F20 "+RY10" I L 10100 3700 50 
+F21 "-RY10" I L 10100 3800 50 
+F22 "+RZ32" I L 10100 4400 50 
+F23 "-RZ32" I L 10100 4500 50 
+F24 "+RZ12" I L 10100 4700 50 
+F25 "-RZ12" I L 10100 4800 50 
+F26 "+RZ10" I L 10100 5000 50 
+F27 "-RZ10" I L 10100 5100 50 
 $EndSheet
 Wire Wire Line
 	6075 7125 6075 7475
@@ -148,301 +148,301 @@ Wire Wire Line
 $Comp
 L Connector:TestPoint TP?
 U 1 1 5DB96B37
-P 5975 3425
+P 5350 6300
 AR Path="/5D6520CE/5DB96B37" Ref="TP?"  Part="1" 
 AR Path="/5DB96B37" Ref="TP_Pot1"  Part="1" 
-F 0 "TP_Pot1" H 6033 3543 50  0000 L CNN
-F 1 "TestPoint" H 6033 3452 50  0000 L CNN
-F 2 "LibPersoNadj:Banana_test_point_4mm" H 6175 3425 50  0001 C CNN
-F 3 "~" H 6175 3425 50  0001 C CNN
-	1    5975 3425
+F 0 "TP_Pot1" H 5408 6418 50  0000 L CNN
+F 1 "TestPoint" H 5408 6327 50  0000 L CNN
+F 2 "LibPersoNadj:Banana_test_point_4mm" H 5550 6300 50  0001 C CNN
+F 3 "~" H 5550 6300 50  0001 C CNN
+	1    5350 6300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:TestPoint TP?
 U 1 1 5DB96B3D
-P 6450 3425
+P 5825 6300
 AR Path="/5D6520CE/5DB96B3D" Ref="TP?"  Part="1" 
 AR Path="/5DB96B3D" Ref="TP_Pot2"  Part="1" 
-F 0 "TP_Pot2" H 6508 3543 50  0000 L CNN
-F 1 "TestPoint" H 6508 3452 50  0000 L CNN
-F 2 "LibPersoNadj:Banana_test_point_4mm" H 6650 3425 50  0001 C CNN
-F 3 "~" H 6650 3425 50  0001 C CNN
-	1    6450 3425
+F 0 "TP_Pot2" H 5883 6418 50  0000 L CNN
+F 1 "TestPoint" H 5883 6327 50  0000 L CNN
+F 2 "LibPersoNadj:Banana_test_point_4mm" H 6025 6300 50  0001 C CNN
+F 3 "~" H 6025 6300 50  0001 C CNN
+	1    5825 6300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5975 3425 5975 3600
+	5350 6300 5350 6475
 Wire Wire Line
-	6450 3425 6450 3600
-Text Label 2900 7525 2    50   ~ 0
+	5825 6300 5825 6475
+Text Label 7925 2650 2    50   ~ 0
 RTN_B
 Wire Wire Line
-	1725 9025 1450 9025
-Text Label 1050 7125 0    50   ~ 0
+	6750 4150 6475 4150
+Text Label 6075 2250 0    50   ~ 0
 CR_Z
-Text Label 1050 6925 0    50   ~ 0
+Text Label 6075 2050 0    50   ~ 0
 CR_Y
-Text Label 1050 6625 0    50   ~ 0
+Text Label 6075 1750 0    50   ~ 0
 B_X
-Text Label 1050 6825 0    50   ~ 0
+Text Label 6075 1950 0    50   ~ 0
 B_Y
-Text Label 1050 6725 0    50   ~ 0
+Text Label 6075 1850 0    50   ~ 0
 CR_X
-Text Label 1050 7325 0    50   ~ 0
+Text Label 6075 2450 0    50   ~ 0
 RTN_Mon_A
-Text Label 1050 7225 0    50   ~ 0
+Text Label 6075 2350 0    50   ~ 0
 Temp_Mon_A
-Text Label 1050 7425 0    50   ~ 0
+Text Label 6075 2550 0    50   ~ 0
 M_X
-Text Label 1050 7925 0    50   ~ 0
+Text Label 6075 3050 0    50   ~ 0
 Sh_Z
-Text Label 1050 7725 0    50   ~ 0
+Text Label 6075 2850 0    50   ~ 0
 Sh_Y
-Text Label 1050 7525 0    50   ~ 0
+Text Label 6075 2650 0    50   ~ 0
 Sh_X
-Text Label 1050 7825 0    50   ~ 0
+Text Label 6075 2950 0    50   ~ 0
 M_Z
-Text Label 1050 7625 0    50   ~ 0
+Text Label 6075 2750 0    50   ~ 0
 M_Y
-Text Label 1050 8025 0    50   ~ 0
+Text Label 6075 3150 0    50   ~ 0
 Chassis
-Text Label 1050 7025 0    50   ~ 0
+Text Label 6075 2150 0    50   ~ 0
 B_Z
 $Comp
 L Connector_Generic_MountingPin:Conn_02x25_Top_Bottom_MountingPin J_50m_1
 U 1 1 5E725E95
-P 1925 7825
-F 0 "J_50m_1" H 1975 9242 50  0000 C CNN
-F 1 "Conn_02x25_Top_Bottom_MountingPin" H 1975 9151 50  0000 C CNN
-F 2 "LibPersoNadj:db_50m_MP_DD50S564TXLF" H 1925 7825 50  0001 C CNN
-F 3 "~" H 1925 7825 50  0001 C CNN
-	1    1925 7825
+P 6950 2950
+F 0 "J_50m_1" H 7000 4367 50  0000 C CNN
+F 1 "Conn_02x25_Top_Bottom_MountingPin" H 7000 4276 50  0000 C CNN
+F 2 "LibPersoNadj:db_50m_MP_DD50S564TXLF" H 6950 2950 50  0001 C CNN
+F 3 "~" H 6950 2950 50  0001 C CNN
+	1    6950 2950
 	1    0    0    -1  
 $EndComp
-Text Label 2900 6725 2    50   ~ 0
+Text Label 7925 1850 2    50   ~ 0
 Sx
-Text Label 2900 6625 2    50   ~ 0
+Text Label 7925 1750 2    50   ~ 0
 RTNx
-Text Label 2900 6925 2    50   ~ 0
+Text Label 7925 2050 2    50   ~ 0
 Sz
-Text Label 2900 7025 2    50   ~ 0
+Text Label 7925 2150 2    50   ~ 0
 RTNz
-Text Label 2900 8025 2    50   ~ 0
+Text Label 7925 3150 2    50   ~ 0
 Sy
-Text Label 2900 8125 2    50   ~ 0
+Text Label 7925 3250 2    50   ~ 0
 RTNy
-Text Label 2900 7125 2    50   ~ 0
+Text Label 7925 2250 2    50   ~ 0
 RTN_Mon_A
-Text Label 2900 8325 2    50   ~ 0
+Text Label 7925 3450 2    50   ~ 0
 Temp_Mon_A
-Text Label 2900 8425 2    50   ~ 0
+Text Label 7925 3550 2    50   ~ 0
 Temp_Mon_B
-Text Label 2900 7225 2    50   ~ 0
+Text Label 7925 2350 2    50   ~ 0
 RTN_Mon_B
-Text Label 2900 7425 2    50   ~ 0
+Text Label 7925 2550 2    50   ~ 0
 +6V_B
-Text Label 2900 7725 2    50   ~ 0
+Text Label 7925 2850 2    50   ~ 0
 CAL
 Wire Wire Line
-	3000 6825 3000 7325
-Connection ~ 3000 7325
+	8025 1950 8025 2450
+Connection ~ 8025 2450
 Wire Wire Line
-	3000 7325 3000 7525
-Connection ~ 3000 7525
+	8025 2450 8025 2650
+Connection ~ 8025 2650
 Wire Wire Line
-	3000 7525 3000 7625
-Connection ~ 3000 7625
+	8025 2650 8025 2750
+Connection ~ 8025 2750
 Wire Wire Line
-	3000 7625 3000 7825
-Text Label 2875 7825 2    50   ~ 0
+	8025 2750 8025 2950
+Text Label 7900 2950 2    50   ~ 0
 CAL_RTN
-Connection ~ 3000 7925
+Connection ~ 8025 3050
 Wire Wire Line
-	3000 7925 3000 8225
-Connection ~ 3000 7825
+	8025 3050 8025 3350
+Connection ~ 8025 2950
 Wire Wire Line
-	3000 7825 3000 7925
-Connection ~ 3000 8225
+	8025 2950 8025 3050
+Connection ~ 8025 3350
 Wire Wire Line
-	3000 8225 3000 8625
-Text Label 2900 8625 2    50   ~ 0
+	8025 3350 8025 3750
+Text Label 7925 3750 2    50   ~ 0
 RTN_A
-Text Label 2900 8525 2    50   ~ 0
+Text Label 7925 3650 2    50   ~ 0
 +6V_A
-Text Label 2900 8825 2    50   ~ 0
+Text Label 7925 3950 2    50   ~ 0
 +6V_C
-Text Label 2900 8925 2    50   ~ 0
+Text Label 7925 4050 2    50   ~ 0
 RTN_C
-Connection ~ 3000 8725
+Connection ~ 8025 3850
 Wire Wire Line
-	3000 8725 3000 8925
-Text Label 2900 9025 2    50   ~ 0
+	8025 3850 8025 4050
+Text Label 7925 4150 2    50   ~ 0
 CAL_Shield
-Text Label 2900 8725 2    50   ~ 0
+Text Label 7925 3850 2    50   ~ 0
 PWR_Shield_B
-Text Label 2900 7325 2    50   ~ 0
+Text Label 7925 2450 2    50   ~ 0
 PWR_Shield_A
-Text Label 2900 7625 2    50   ~ 0
+Text Label 7925 2750 2    50   ~ 0
 PWR_Shield_C
-Text Label 2875 7925 2    50   ~ 0
+Text Label 7900 3050 2    50   ~ 0
 XShield
-Text Label 2900 8225 2    50   ~ 0
+Text Label 7925 3350 2    50   ~ 0
 ZShield
-Text Label 2900 6825 2    50   ~ 0
+Text Label 7925 1950 2    50   ~ 0
 YShield
 Wire Wire Line
-	2225 6625 2900 6625
+	7250 1750 7925 1750
 Wire Wire Line
-	2225 6725 2900 6725
+	7250 1850 7925 1850
 Wire Wire Line
-	2225 6825 3000 6825
+	7250 1950 8025 1950
 Wire Wire Line
-	2225 6925 2900 6925
+	7250 2050 7925 2050
 Wire Wire Line
-	2225 7025 2900 7025
+	7250 2150 7925 2150
 Wire Wire Line
-	2225 7125 2900 7125
+	7250 2250 7925 2250
 Wire Wire Line
-	2225 7225 2900 7225
+	7250 2350 7925 2350
 Wire Wire Line
-	2225 7425 2900 7425
+	7250 2550 7925 2550
 Wire Wire Line
-	2225 7525 3000 7525
+	7250 2650 8025 2650
 Wire Wire Line
-	2225 7625 3000 7625
+	7250 2750 8025 2750
 Wire Wire Line
-	2225 7725 2900 7725
+	7250 2850 7925 2850
 Wire Wire Line
-	2225 7825 3000 7825
+	7250 2950 8025 2950
 Wire Wire Line
-	2225 7925 3000 7925
+	7250 3050 8025 3050
 Wire Wire Line
-	2225 8025 2900 8025
+	7250 3150 7925 3150
 Wire Wire Line
-	2225 8125 2900 8125
+	7250 3250 7925 3250
 Wire Wire Line
-	2225 8225 3000 8225
+	7250 3350 8025 3350
 Wire Wire Line
-	2225 8325 2900 8325
+	7250 3450 7925 3450
 Wire Wire Line
-	2225 8425 2900 8425
+	7250 3550 7925 3550
 Wire Wire Line
-	2225 8525 2900 8525
+	7250 3650 7925 3650
 Wire Wire Line
-	2225 8725 3000 8725
+	7250 3850 8025 3850
 Wire Wire Line
-	2225 8825 2900 8825
+	7250 3950 7925 3950
 Wire Wire Line
-	2225 9025 3000 9025
+	7250 4150 8025 4150
 Wire Wire Line
-	2225 7325 3000 7325
+	7250 2450 8025 2450
 Wire Wire Line
-	2225 8625 3000 8625
-Connection ~ 3000 8625
+	7250 3750 8025 3750
+Connection ~ 8025 3750
 Wire Wire Line
-	3000 8625 3000 8725
+	8025 3750 8025 3850
 Wire Wire Line
-	2225 8925 3000 8925
-Connection ~ 3000 8925
+	7250 4050 8025 4050
+Connection ~ 8025 4050
 Wire Wire Line
-	3000 8925 3000 9025
+	8025 4050 8025 4150
 Wire Wire Line
-	1050 7025 1725 7025
+	6075 2150 6750 2150
 Wire Wire Line
-	1050 7125 1725 7125
+	6075 2250 6750 2250
 Wire Wire Line
-	1050 7225 1725 7225
+	6075 2350 6750 2350
 Wire Wire Line
-	1050 7325 1725 7325
+	6075 2450 6750 2450
 Wire Wire Line
-	1050 7425 1725 7425
+	6075 2550 6750 2550
 Wire Wire Line
-	1050 7625 1725 7625
+	6075 2750 6750 2750
 Wire Wire Line
-	1050 7825 1725 7825
+	6075 2950 6750 2950
 Wire Wire Line
-	1050 6625 1725 6625
+	6075 1750 6750 1750
 Wire Wire Line
-	1050 6725 1725 6725
+	6075 1850 6750 1850
 Wire Wire Line
-	1050 6825 1725 6825
+	6075 1950 6750 1950
 Wire Wire Line
-	1050 6925 1725 6925
+	6075 2050 6750 2050
 Wire Wire Line
-	950  7525 950  7725
+	5975 2650 5975 2850
 Wire Wire Line
-	950  7525 1725 7525
+	5975 2650 6750 2650
 Wire Wire Line
-	950  8025 1725 8025
+	5975 3150 6750 3150
 Wire Wire Line
-	950  7925 1725 7925
-Connection ~ 950  7925
+	5975 3050 6750 3050
+Connection ~ 5975 3050
 Wire Wire Line
-	950  7925 950  8025
+	5975 3050 5975 3150
 Wire Wire Line
-	950  7725 1725 7725
-Connection ~ 950  7725
+	5975 2850 6750 2850
+Connection ~ 5975 2850
 Wire Wire Line
-	950  7725 950  7925
+	5975 2850 5975 3050
 $Comp
 L power:GND #PWR0139
 U 1 1 5EA247CD
-P 3050 9025
-F 0 "#PWR0139" H 3050 8775 50  0001 C CNN
-F 1 "GND" V 3055 8897 50  0000 R CNN
-F 2 "" H 3050 9025 50  0001 C CNN
-F 3 "" H 3050 9025 50  0001 C CNN
-	1    3050 9025
+P 8075 4150
+F 0 "#PWR0139" H 8075 3900 50  0001 C CNN
+F 1 "GND" V 8080 4022 50  0000 R CNN
+F 2 "" H 8075 4150 50  0001 C CNN
+F 3 "" H 8075 4150 50  0001 C CNN
+	1    8075 4150
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	3000 9025 3050 9025
+	8025 4150 8075 4150
 $Comp
 L power:GND #PWR0141
 U 1 1 5EA2CBBD
-P 900 8025
-F 0 "#PWR0141" H 900 7775 50  0001 C CNN
-F 1 "GND" V 905 7897 50  0000 R CNN
-F 2 "" H 900 8025 50  0001 C CNN
-F 3 "" H 900 8025 50  0001 C CNN
-	1    900  8025
+P 5925 3150
+F 0 "#PWR0141" H 5925 2900 50  0001 C CNN
+F 1 "GND" V 5930 3022 50  0000 R CNN
+F 2 "" H 5925 3150 50  0001 C CNN
+F 3 "" H 5925 3150 50  0001 C CNN
+	1    5925 3150
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	950  8025 900  8025
+	5975 3150 5925 3150
 Wire Wire Line
 	5550 7525 5550 7475
 Connection ~ 5550 7475
 Wire Wire Line
 	5550 7475 5725 7475
-NoConn ~ 1450 9025
+NoConn ~ 6475 4150
 Wire Wire Line
-	9800 1325 9125 1325
+	10100 1100 9425 1100
 Wire Wire Line
-	9800 1425 9125 1425
-Text Label 9125 1425 0    50   ~ 0
+	10100 1200 9425 1200
+Text Label 9425 1200 0    50   ~ 0
 TP_Pot_2
-Text Label 9125 1325 0    50   ~ 0
+Text Label 9425 1100 0    50   ~ 0
 TP_Pot_1
-Text Label 1050 8325 0    50   ~ 0
+Text Label 6075 3450 0    50   ~ 0
 In2P_Z
-Text Label 1050 8225 0    50   ~ 0
+Text Label 6075 3350 0    50   ~ 0
 In2P_Y
-Text Label 1050 8125 0    50   ~ 0
+Text Label 6075 3250 0    50   ~ 0
 In2P_X
 Wire Wire Line
-	1050 8125 1725 8125
+	6075 3250 6750 3250
 Wire Wire Line
-	1050 8225 1725 8225
+	6075 3350 6750 3350
 Wire Wire Line
-	1050 8325 1725 8325
-Text Label 5975 3600 0    50   ~ 0
+	6075 3450 6750 3450
+Text Label 5350 6475 0    50   ~ 0
 TP_Pot_1
-Text Label 6450 3600 0    50   ~ 0
+Text Label 5825 6475 0    50   ~ 0
 TP_Pot_2
-Connection ~ 950  8025
-Connection ~ 3000 9025
+Connection ~ 5975 3150
+Connection ~ 8025 4150
 Text Label 925  4200 0    50   ~ 0
 RTN_B
 Text Label 925  1300 0    50   ~ 0
@@ -880,124 +880,124 @@ Wire Wire Line
 	2425 3100 3325 3100
 Connection ~ 2175 4875
 Wire Wire Line
-	9100 2325 9800 2325
+	9400 2100 10100 2100
 Wire Wire Line
-	9100 1825 9800 1825
+	9400 1600 10100 1600
 Wire Wire Line
-	9100 1725 9800 1725
+	9400 1500 10100 1500
 Wire Wire Line
-	9100 2125 9800 2125
+	9400 1900 10100 1900
 Wire Wire Line
-	9100 2025 9800 2025
+	9400 1800 10100 1800
 Wire Wire Line
-	9100 2425 9800 2425
-Text Label 9100 1725 0    50   ~ 0
+	9400 2200 10100 2200
+Text Label 9400 1500 0    50   ~ 0
 +RX34
-Text Label 9100 1825 0    50   ~ 0
+Text Label 9400 1600 0    50   ~ 0
 -RX34
-Text Label 9100 2025 0    50   ~ 0
+Text Label 9400 1800 0    50   ~ 0
 +RX32
-Text Label 9100 2125 0    50   ~ 0
+Text Label 9400 1900 0    50   ~ 0
 -RX32
-Text Label 9100 2325 0    50   ~ 0
+Text Label 9400 2100 0    50   ~ 0
 +RX12
-Text Label 9100 2425 0    50   ~ 0
+Text Label 9400 2200 0    50   ~ 0
 -RX12
 Wire Wire Line
-	9100 2625 9800 2625
+	9400 2400 10100 2400
 Wire Wire Line
-	9100 2725 9800 2725
-Text Label 9100 2625 0    50   ~ 0
+	9400 2500 10100 2500
+Text Label 9400 2400 0    50   ~ 0
 +RX10
-Text Label 9100 2725 0    50   ~ 0
+Text Label 9400 2500 0    50   ~ 0
 -RX10
 Wire Wire Line
-	9100 3625 9800 3625
+	9400 3400 10100 3400
 Wire Wire Line
-	9100 3125 9800 3125
+	9400 2900 10100 2900
 Wire Wire Line
-	9100 3025 9800 3025
+	9400 2800 10100 2800
 Wire Wire Line
-	9100 3425 9800 3425
+	9400 3200 10100 3200
 Wire Wire Line
-	9100 3325 9800 3325
+	9400 3100 10100 3100
 Wire Wire Line
-	9100 3725 9800 3725
-Text Label 9100 3025 0    50   ~ 0
+	9400 3500 10100 3500
+Text Label 9400 2800 0    50   ~ 0
 +RY34
-Text Label 9100 3125 0    50   ~ 0
+Text Label 9400 2900 0    50   ~ 0
 -RY34
-Text Label 9100 3325 0    50   ~ 0
+Text Label 9400 3100 0    50   ~ 0
 +RY32
-Text Label 9100 3425 0    50   ~ 0
+Text Label 9400 3200 0    50   ~ 0
 -RY32
-Text Label 9100 3625 0    50   ~ 0
+Text Label 9400 3400 0    50   ~ 0
 +RY12
-Text Label 9100 3725 0    50   ~ 0
+Text Label 9400 3500 0    50   ~ 0
 -RY12
 Wire Wire Line
-	9100 3925 9800 3925
+	9400 3700 10100 3700
 Wire Wire Line
-	9100 4025 9800 4025
-Text Label 9100 3925 0    50   ~ 0
+	9400 3800 10100 3800
+Text Label 9400 3700 0    50   ~ 0
 +RY10
-Text Label 9100 4025 0    50   ~ 0
+Text Label 9400 3800 0    50   ~ 0
 -RY10
 Wire Wire Line
-	9100 4925 9800 4925
+	9400 4700 10100 4700
 Wire Wire Line
-	9100 4425 9800 4425
+	9400 4200 10100 4200
 Wire Wire Line
-	9100 4325 9800 4325
+	9400 4100 10100 4100
 Wire Wire Line
-	9100 4725 9800 4725
+	9400 4500 10100 4500
 Wire Wire Line
-	9100 4625 9800 4625
+	9400 4400 10100 4400
 Wire Wire Line
-	9100 5025 9800 5025
-Text Label 9100 4325 0    50   ~ 0
+	9400 4800 10100 4800
+Text Label 9400 4100 0    50   ~ 0
 +RZ34
-Text Label 9100 4425 0    50   ~ 0
+Text Label 9400 4200 0    50   ~ 0
 -RZ34
-Text Label 9100 4625 0    50   ~ 0
+Text Label 9400 4400 0    50   ~ 0
 +RZ32
-Text Label 9100 4725 0    50   ~ 0
+Text Label 9400 4500 0    50   ~ 0
 -RZ32
-Text Label 9100 4925 0    50   ~ 0
+Text Label 9400 4700 0    50   ~ 0
 +RZ12
-Text Label 9100 5025 0    50   ~ 0
+Text Label 9400 4800 0    50   ~ 0
 -RZ12
 Wire Wire Line
-	9100 5225 9800 5225
+	9400 5000 10100 5000
 Wire Wire Line
-	9100 5325 9800 5325
-Text Label 9100 5225 0    50   ~ 0
+	9400 5100 10100 5100
+Text Label 9400 5000 0    50   ~ 0
 +RZ10
-Text Label 9100 5325 0    50   ~ 0
+Text Label 9400 5100 0    50   ~ 0
 -RZ10
 Wire Wire Line
-	1725 8725 725  8725
+	6750 3850 5750 3850
 Wire Wire Line
-	1725 8825 725  8825
+	6750 3950 5750 3950
 Wire Wire Line
-	1725 8925 725  8925
-Text Label 725  8925 0    50   ~ 0
+	6750 4050 5750 4050
+Text Label 5750 4050 0    50   ~ 0
 VDD_Z
-Text Label 725  8825 0    50   ~ 0
+Text Label 5750 3950 0    50   ~ 0
 VDD_Y
-Text Label 725  8725 0    50   ~ 0
+Text Label 5750 3850 0    50   ~ 0
 VDD_X
 Wire Wire Line
-	1725 8425 725  8425
+	6750 3550 5750 3550
 Wire Wire Line
-	1725 8525 725  8525
+	6750 3650 5750 3650
 Wire Wire Line
-	1725 8625 725  8625
-Text Label 725  8425 0    50   ~ 0
+	6750 3750 5750 3750
+Text Label 5750 3550 0    50   ~ 0
 V_BIAS_LNA_X
-Text Label 725  8625 0    50   ~ 0
+Text Label 5750 3750 0    50   ~ 0
 V_BIAS_LNA_Z
-Text Label 725  8525 0    50   ~ 0
+Text Label 5750 3650 0    50   ~ 0
 V_BIAS_LNA_Y
 Wire Wire Line
 	6775 7125 6775 7475

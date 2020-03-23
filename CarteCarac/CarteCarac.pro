@@ -1,6 +1,6 @@
-update=ven. 10 janv. 2020 11:41:24 CET
+update=lun. 23 mars 2020 18:52:14 CET
 version=1
-last_client=pcbnew
+last_client=kicad
 [general]
 version=1
 RootSch=
@@ -12,16 +12,6 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
-[schematic_editor]
-version=1
-PageLayoutDescrFile=/home/ba/KiCad/Cartouche/CartoucheJUICE.kicad_wks
-PlotDirectoryName=PDF
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -276,3 +266,13 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
+[schematic_editor]
+version=1
+PageLayoutDescrFile=/home/ba/KiCad/Cartouche/CartoucheJUICE.kicad_wks
+PlotDirectoryName=PDF
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1

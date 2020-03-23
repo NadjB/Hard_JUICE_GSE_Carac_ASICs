@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name CarteCaracASIC-rescue)(type Legacy)(uri ${KIPRJMOD}/CarteCaracASIC-rescue.lib)(options "")(descr ""))
+  (lib (name CarteCaracASIC-rescue)(type Legacy)(uri ${KIPRJMOD}/CarteCaracASIC-rescue.lib)(options "")(descr "")(disabled))
+  (lib (name CarteCarac-rescue)(type Legacy)(uri ${KIPRJMOD}/CarteCarac-rescue.lib)(options "")(descr "")(disabled))
 )

@@ -44,19 +44,6 @@ F 3 "~" H 9375 3225 50  0001 C CNN
 	1    9375 2825
 	-1   0    0    -1  
 $EndComp
-$Comp
-L LibPersoNadj:SW_6P3T_Slide6x3 SW_Channels_0
-U 1 1 5E153517
-P 6575 2600
-AR Path="/5E153517" Ref="SW_Channels_0"  Part="1" 
-AR Path="/5D6520CE/5E153517" Ref="SW_Channels_0"  Part="1" 
-F 0 "SW_Channels_0" H 6625 3890 50  0000 C CNN
-F 1 "SW_6P3T_Slide6x3" H 6625 3799 50  0000 C CNN
-F 2 "LibPersoNadj:SW_6P3T_MSS6350R04_TE" H 6475 3900 50  0001 C CNN
-F 3 "http://cdn-reichelt.de/documents/datenblatt/C200/DS-Serie%23LOR.pdf" H 6475 3900 50  0001 C CNN
-	1    6575 2600
-	-1   0    0    -1  
-$EndComp
 $Sheet
 S 1850 3700 1050 1150
 U 5D843251
@@ -231,7 +218,7 @@ AR Path="/5D6520CE/5E076C40" Ref="#PWR0142"  Part="1"
 AR Path="/5D88AB06/5D6520CE/5E076C40" Ref="#PWR?"  Part="1" 
 AR Path="/5D9D35E7/5E076C40" Ref="#PWR?"  Part="1" 
 F 0 "#PWR0142" H 7050 2350 50  0001 C CNN
-F 1 "GND" H 7055 2427 50  0000 C CNN
+F 1 "GND" V 7050 2375 50  0000 C CNN
 F 2 "" H 7050 2600 50  0001 C CNN
 F 3 "" H 7050 2600 50  0001 C CNN
 	1    7050 2600
@@ -491,4 +478,15 @@ Text HLabel 3600 4675 2    50   Input ~ 0
 +RZ10
 Text HLabel 3600 4775 2    50   Input ~ 0
 -RZ10
+$Comp
+L LibPersoNadj:SW_6P3T_Slide6x3 SW_Channels_0
+U 1 1 5E7CD602
+P 6575 2600
+F 0 "SW_Channels_0" H 6625 3890 50  0000 C CNN
+F 1 "SW_6P3T_Slide6x3" H 6625 3799 50  0000 C CNN
+F 2 "LibPersoNadj:SW_6P3T_MSS6350R04_TE" H 6475 3900 50  0001 C CNN
+F 3 "http://cdn-reichelt.de/documents/datenblatt/C200/DS-Serie%23LOR.pdf" H 6475 3900 50  0001 C CNN
+	1    6575 2600
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
