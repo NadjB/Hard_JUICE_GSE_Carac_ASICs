@@ -31,7 +31,6 @@ testproject.sch
 testproject.pro
 testproject.kicad_pcb
 fp-lib-table
-*-cache.lib
 *-rescue.lib
 *-cache
 /replicate_layout.log

@@ -26,7 +26,7 @@ F 1 "OPA4376" H 5350 3525 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5375 3975 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/opa376.pdf" H 5475 4075 50  0001 C CNN
 	1    5425 3875
-	1    0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R?
@@ -86,7 +86,7 @@ F 1 "R" V 5309 4300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5355 4300 50  0001 C CNN
 F 3 "~" H 5425 4300 50  0001 C CNN
 	1    5425 4300
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	4900 3500 5025 3500
@@ -129,7 +129,7 @@ AR Path="/61D78C90" Ref="#PWR?"  Part="1"
 AR Path="/61D6BED7/61D78C90" Ref="#PWR09"  Part="1" 
 AR Path="/61F56081/61D78C90" Ref="#PWR010"  Part="1" 
 AR Path="/61F9BC15/61D78C90" Ref="#PWR011"  Part="1" 
-F 0 "#PWR011" H 5050 4575 50  0001 C CNN
+F 0 "#PWR09" H 5050 4575 50  0001 C CNN
 F 1 "GND" H 5055 4652 50  0000 C CNN
 F 2 "" H 5050 4825 50  0001 C CNN
 F 3 "" H 5050 4825 50  0001 C CNN
